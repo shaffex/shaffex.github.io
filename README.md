@@ -1,6 +1,7 @@
 # shaffex.github.io
 
-[Link to new page](./Views.md)
+[Views](./Views.md)
+[Modifiers](./Modifiers.md)
 
 <details>
 <summary>Section AAA</summary>
