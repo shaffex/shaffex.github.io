@@ -1,5 +1,7 @@
 # shaffex.github.io
 
+[Link to new page](./Views)
+
 <details>
 <summary>Section AAA</summary>
 <details>
