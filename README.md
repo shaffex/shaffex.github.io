@@ -5,17 +5,17 @@ Our XML parser is a high-performance, customised solution designed to handle a w
 <details>
 <summary>Details (Click to expand)</summary>
 
-## Features
+<h2>Features</h2>
 
-### Support for Comments
+<h3>Support for Comments</h3>
 
 Our parser fully supports XML comments. This means you can include notes in your XML documents without affecting the data that the parser extracts.
 
-### CDATA Support
+<h3>CDATA Support</h3>
 
 The parser also supports CDATA sections, allowing you to include text that the parser will not interpret as XML markup. This is useful for including content such as scripts or HTML markup in your XML documents.
 
-### Ordered Attributes
+<h3>Ordered Attributes</h3>
 
 Unlike many XML parsers, our solution maintains the order of attributes in XML elements. This can be crucial for applications where the order of attributes matters like in SwiftUI views.
 
