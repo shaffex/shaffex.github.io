@@ -28,20 +28,23 @@
 </details>
 
 <details>
-
-```xml
-<body>
-    <vstack>
-        <circle foregroundColor="red"/>
-        <circle foregroundColor="green"/>
-        <circle foregroundColor="blue"/>
-    </vstack>
-</body>
-```
+<summary>Click to expand!</summary>
+<pre><code>
+&lt;body&gt;
+    &lt;foreach repeatCount="8"&gt;
+    &lt;hstack&gt;
+        &lt;rectangle foregroundColor="red"/&gt;
+        &lt;rectangle foregroundColor="orange"/&gt;
+        &lt;rectangle foregroundColor="red"/&gt;
+    &lt;/hstack&gt;
+    &lt;/foreach&gt;
+&lt;/body&gt;
+</code></pre>
 </details>
 
 <details>
-
+Hello
+    
 ```xml
 <body>
   <vstack>
@@ -54,6 +57,7 @@
 </details>
 
 <details>
+
 
 ```xml
 <body>
