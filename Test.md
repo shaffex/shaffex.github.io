@@ -14,6 +14,7 @@
 `spacing` (optional) This parameter determines the vertical spacing between the views.
 > **Default value:** System default spacing
 <details markdown="block">
+<summary>Click me</summary>
 
 ```xml
 <body>
@@ -26,6 +27,8 @@
     </foreach>
 </body>
 ```
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://shaffex.com/MagicUiDemo/Help/images/noob2.png)
+
 </details>
 
 <details markdown="block">
