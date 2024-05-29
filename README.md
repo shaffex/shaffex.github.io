@@ -1,5 +1,7 @@
 # MagicUI
 
+* [Test](./Test.md)
+
 Welcome to **MagicUI**, a revolutionary user interface framework designed with performance and flexibility in mind. 
 
 ## Ultra Lightweight
