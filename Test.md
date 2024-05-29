@@ -10,6 +10,23 @@
 
 `spacing` (optional) This parameter determines the vertical spacing between the views.
 > **Default value:** System default spacing
+
+<details>
+<summary>Click to expand 6!</summary>
+
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
+</body>
+```
+</details>
+
 <details>
 <summary>Click to expand2!</summary>
 
