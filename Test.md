@@ -6,62 +6,43 @@
 * `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
 * `center` Aligns the views along the center.
 * `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
+
+
+
 > **Default value:** center
 
 `spacing` (optional) This parameter determines the vertical spacing between the views.
 > **Default value:** System default spacing
+<details markdown="block">
+
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
+</body>
+```
+</details>
 
 <details markdown="block">
-<summary>Click to expand 7!</summary>
 
 ```xml
 <body>
-    <foreach repeatCount="8">
-    <hstack>
-        <rectangle foregroundColor="red"/>
-        <rectangle foregroundColor="orange"/>
-        <rectangle foregroundColor="red"/>
-    </hstack>
-    </foreach>
+    <vstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green"/>
+        <circle foregroundColor="blue"/>
+    </vstack>
 </body>
 ```
 </details>
 
-<details>
-<summary>Click to expand2!</summary>
+<details markdown="block">
 
-```xml
-<body>
-    <foreach repeatCount="8">
-    <hstack>
-        <rectangle foregroundColor="red"/>
-        <rectangle foregroundColor="orange"/>
-        <rectangle foregroundColor="red"/>
-    </hstack>
-    </foreach>
-</body>
-```
-
-</details>
-
-<details>
-<summary>Click to expand!</summary>
-<pre><code>
-&lt;body&gt;
-    &lt;foreach repeatCount="8"&gt;
-    &lt;hstack&gt;
-        &lt;rectangle foregroundColor="red"/&gt;
-        &lt;rectangle foregroundColor="orange"/&gt;
-        &lt;rectangle foregroundColor="red"/&gt;
-    &lt;/hstack&gt;
-    &lt;/foreach&gt;
-&lt;/body&gt;
-</code></pre>
-</details>
-
-<details>
-Hello
-    
 ```xml
 <body>
   <vstack>
@@ -73,8 +54,7 @@ Hello
 ```
 </details>
 
-<details>
-
+<details markdown="block">
 
 ```xml
 <body>
