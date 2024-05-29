@@ -16,6 +16,8 @@
 <details markdown="block">
 <summary>Click me now</summary>
 
+ <div id="code">
+
 ```xml
 <body>
     <foreach repeatCount="8">
@@ -25,11 +27,15 @@
         <rectangle foregroundColor="red"/>
     </hstack>
     </foreach>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
 
 ```
+</div>
+    <button class="btn" data-clipboard-target="#code">Copy Code</button>
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://shaffex.com/MagicUiDemo/Help/images/noob2.png)
 
 <details markdown="block">
