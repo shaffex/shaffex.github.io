@@ -14,7 +14,7 @@
 `spacing` (optional) This parameter determines the vertical spacing between the views.
 > **Default value:** System default spacing
 <details markdown="block">
-<summary>Click me</summary>
+<summary>Click me now</summary>
 
 ```xml
 <body>
@@ -26,8 +26,31 @@
     </hstack>
     </foreach>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
 ```
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://shaffex.com/MagicUiDemo/Help/images/noob2.png)
+
+<details markdown="block">
+<summary>Click me now</summary>
+
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="blue"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
+</body>
+```
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://shaffex.com/MagicUiDemo/Help/images/noob2.png)
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+</details>
 
 </details>
 
