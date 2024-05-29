@@ -11,6 +11,7 @@
 `spacing` (optional) This parameter determines the vertical spacing between the views.
 > **Default value:** System default spacing
 <details>
+<summary>Click to expand!</summary>
 
 ```xml
 <body>
