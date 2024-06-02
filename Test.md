@@ -1,3 +1,5 @@
+<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="300"/><img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="300"/>
+
 **VStack** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
 ***Parameters:***
@@ -52,7 +54,7 @@
     </foreach>
 </body>
 ```
-<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="200"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="300"/>
 
 ![my text bla bla bla](https://shaffex.com/MagicUiDemo/Help/copy0.png)
 
@@ -105,6 +107,9 @@
   </hstack>
 </body>
 ```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="250"/>
+
 </details>
 
 
