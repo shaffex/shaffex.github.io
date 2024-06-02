@@ -1,4 +1,6 @@
-<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="300"/><img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="300"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/copy0.png" alt="my text bla bla bla" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/copy1.png" alt="my text bla bla bla" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/copy2.png" alt="my text bla bla bla" width="250"/>
 
 **VStack** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
