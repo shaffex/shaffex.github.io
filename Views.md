@@ -1,327 +1,312 @@
-## Controls
-<details>
-<summary>alert</summary>
+## Controls 123
+<details markdown="block">
+<summary>button</summary>
 
 ```xml
 <body>
-<vstack>
-  <button alert="isPresented:myAlert" action="presentAlert:isPresented:myAlert">presentAlert:isPresented:myAlert</button>
-</vstack>
-
-<alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
-</alert>
-
+    <button>Press Me</button>
 </body>
 ```
 
-```xml
-<body>
-<button alert="item:myAlertItem" action="presentAlert:item:myAlertItem;id:myAlert" onAppear="presentAlert:item:myAlertItem;id:myAlert">Show Alert</button>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/button-0.png" alt="KOKOCE ALT" width="250"/>
 
-<alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
-</alert>
-
-</body>
-```
 
 </details>
-<details>
-<summary>sheet</summary>
+<details markdown="block">
+<summary>datepicker</summary>
 
 ```xml
 <body>
-<vstack>
-<button action="presentSheet:mySheet">presentSheet:mySheet</button>
-<button sheet="isPresented:mySheet" action="presentSheet:isPresented:mySheet">presentSheet:isPresented:mySheet</button>
-<button sheet="item:mySheetItem" action="presentSheet:item:mySheetItem;id:mySheet">presentSheet:item:mySheetItem;id:mySheet</button>
-</vstack>
-
-<vstack id="mySheet">
-<text>I am new sheet</text>
-<button sheet="isPresented:mySheet2" action="presentSheet:isPresented:mySheet2">presentSheet:isPresented:mySheet2</button>
-</vstack>
-
-<text id="mySheet2">I am new sheet 2</text>
-
+    <form>
+    	<datepicker key="myDate" vale="20240822173000">Select date</datepicker>
+    </form>
 </body>
 ```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/datepicker-0.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
-<details>
-<summary>fullScreenCover</summary>
+<details markdown="block">
+<summary>link</summary>
 
 ```xml
 <body>
-<vstack>
-<button action="presentFullScreenCover:mySheet">presentFullScreenCover:mySheet</button>
-<button fullScreenCover="isPresented:mySheet" action="presentSheet:isPresented:mySheet">presentFullScreenCover:isPresented:mySheet</button>
-<button fullScreenCover="item:mySheetItem" action="presentFullScreenCover:item:mySheetItem;id:mySheet">presentFullScreenCover:item:mySheetItem;id:mySheet</button>
-</vstack>
-
-<vstack id="mySheet">
-<text>I am full screen cover</text>
-<button action="dismissFullScreenCover:mySheet">dismissFullScreenCover:mySheet</button>
-<button action="dismissFullScreenCover:isPresented:mySheet">dismissFullScreenCover:isPresented:mySheet</button>
-<button action="dismissFullScreenCover:item:mySheetItem">dismissFullScreenCover:item:mySheetItem</button>
-</vstack>
-
+    <link url="https://shaffex.gitbub.io">My Link</link>
 </body>
 ```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/link-0.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
-<details>
-<summary>actionSheet</summary>
-
-```xml
-<body>
-<vstack actionSheet="isPresented:myActionSheet" onAppear="presentActionSheet:isPresented:myActionSheet"/>
-
-<alert id="myActionSheet" alertTitle="Action Sheet" alertMessage="Message for my action sheet">
-<button action="delay:0.01:presentActionSheet:isPresented:myActionSheet2">Open Action Sheet 2</button>
-<button>Action Default</button>
-<button role="destructive">Action Destructive</button>
-<button role="cancel">Action Cancel</button>
-</alert>
-</body>
-```
-
-```xml
-<body>
-<vstack padding="" font="caption">
-<button actionSheet_1="isPresented:myActionSheet2" actionSheet="isPresented:myActionSheet" action="presentActionSheet:isPresented:myActionSheet">presentActionSheet:isPresented:myActionSheet</button>
-<button actionSheet="item:myActionSheetItem" action="presentAlert:item:myActionSheetItem;id:myActionSheet">presentAlert:item:myActionSheetItem;id:myActionSheet</button>
-
-<text hidden="" actionSheet="isPresented:myActionSheet2">Invisible Text</text>
-
-</vstack>
-
-<alert id="myActionSheet" alertTitle="Action Sheet" alertMessage="Message for my action sheet">
-<button action="delay:0.01:presentActionSheet:isPresented:myActionSheet2">Open Action Sheet 2</button>
-<button>Action Default</button>
-<button role="destructive">Action Destructive</button>
-<button role="cancel">Action Cancel</button>
-</alert>
-
-<alert id="myActionSheet2" alertTitle="Action Sheet 2" alertMessage="Message for my action sheet">
-<button role="cancel">Action Cancel</button>
-</alert>
-
-</body>
-```
-
-</details>
-
-## Effects
-<details>
-<summary>colorInvert</summary>
-
-```xml
-<body>
-<vstack>
-    <zstack>
-        <rectangle foregroundColor="red"/>
-        <text>RED color</text>
-    </zstack>
-    
-    <zstack>
-        <rectangle foregroundColor="red" colorInvert=""/>
-        <text>Inverted RED color</text>
-    </zstack>
-</vstack>
-</body>
-```
-
-</details>
-
-## Layout
-<details>
-<summary>frame</summary>
-
-```xml
-<body>
-<list>
-    <text width="100" height="100" border="color:red;width:1">100x100</text>
-    <text maxWidth="infinity" height="50" border="color:red;width:5">maxWidth=infinity</text>
-    <text width="100" height="50" border="color:green;width:2">100x50</text>
-    <text width="150" height="100" border="color:blue;width:3">150x100</text>
-</list>
-</body>
-```
-
-</details>
-
-## Text
-<details>
-<summary>font</summary>
+<details markdown="block">
+<summary>list</summary>
 
 ```xml
 <body>
     <list>
-
-    <section header="Testing standard fonts">
-        <text font="largeTitle">largeTitle</text>
-        <text font="title">title</text>
-        <text font="title2">title2</text>
-        <text font="title3">title3</text>
-        <text font="headline">headline</text>
-        <text font="subheadline">subheadline</text>
-        <text font="body">body</text>
-        <text font="callout">callout</text>
-        <text font="caption">caption</text>
-        <text font="caption2">caption2</text>
-        <text font="footnote">footnote</text>
-    </section>
-    
-    <section header="Testing color and font" footer="foregroundColor and font modifier">
-        <text foregroundColor="red" font="body">RED body</text>
-        <text foregroundColor="green" font="caption2">GREEN caption2</text>
-        <text foregroundColor="blue" font="largeTitle">BLUE largeTitle</text>
-    </section>
-    
-    <section header="System font" footer="System font is San Francisco Font">
-        <text fontWeight="ultraLight">This is ultraLight text</text>
-        
-        <text font="size:30;weight:regular">This is regular text</text>
-        <text font="size:30;weight:ultraLight">This is ultraLight text</text>
-        <text font="size:30;weight:thin">This is thin text</text>
-        <text font="size:30;weight:bold">This is bold text</text>
-        <text font="size:30;weight:heavy">This is heavy text</text>
-    </section>
-    
-    <section header="Custom font" footer="You can specify font name and font size&#13;Example:custom:Helvetica Neue,size:20">
-        <text font="custom:System;size:20">System (30)</text>
-        <text font="custom:Helvetica Neue;size:20">Helvetica Neue (20)</text>
-        <text font="custom:Helvetica Neue;size:24">Helvetica Neue (24)</text>
-        <text font="custom:Verdana Italic;size:32">Verdana Itali (32)</text>
-        <text font="custom:Courier;size:20">Courier (20)</text>
-        <text font="custom:Arial;size:30">Arial (30)</text>
-        <text font="custom:Georgia;size:30">Georgia (30)</text>
-        <text font="custom:Nonexisting font;size:30">Nonexisting font (30)</text>
-    </section>
-
-</list>
+        <text>Item 1</text>
+    </list>
 </body>
 ```
 
-</details>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-0.png" alt="KOKOCE ALT" width="250"/>
 
+```xml
+<body>
+    <list listStyle="grouped">
+        <text>Item 1</text>
+    </list>
+</body>
+```
 
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-1.png" alt="KOKOCE ALT" width="250"/>
 
-
-
-
-
-
-
-
-
-
-# MIWGeneral
-<details>
-<summary>Introduction</summary>
-
----
-* [Introduction](./kokoce.md)
 
 </details>
 
-# Views
-<details>
-<summary>Controls</summary>
+## Layout
+<details markdown="block">
+<summary>vstack</summary>
 
----
-* [button](./kokoce.md)
-* [datepicker](./kokoce.md)
-* [link](./kokoce.md)
-* [list](./kokoce.md)
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
+</body>
+```
 
-</details>
-<details>
-<summary>Layout</summary>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png" alt="KOKOCE ALT" width="250"/>
 
----
-* [vstack](./kokoce.md)
-* [hstack](./kokoce.md)
-* [zstack](./kokoce.md)
-* [lazyvgrid](./kokoce.md)
-* [geometryreader](./kokoce.md)
-* [viewthatfits](./kokoce.md)
+```xml
+<body>
+    <vstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green"/>
+        <circle foregroundColor="blue"/>
+    </vstack>
+</body>
+```
 
-</details>
-<details>
-<summary>Paint</summary>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png" alt="KOKOCE ALT" width="250"/>
 
----
-* [lineargradient](./kokoce.md)
-* [radialgradient](./kokoce.md)
+```xml
+<body>
+  <vstack>
+      <rectangle foregroundColor="red"/>
+      <rectangle foregroundColor="green"/>
+      <rectangle foregroundColor="blue"/>
+  </vstack>
+</body>
+```
 
-</details>
-<details>
-<summary>Others</summary>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png" alt="KOKOCE ALT" width="250"/>
 
----
+```xml
+<body>
+  <hstack>
+      <rectangle foregroundColor="yellow"/>
+      <vstack>
+          <rectangle foregroundColor="red"/>
+          <rectangle foregroundColor="green"/>
+          <rectangle foregroundColor="blue"/>
+      </vstack>
+      <rectangle foregroundColor="yellow"/>
+  </hstack>
+</body>
+```
 
-</details>
-<details>
-<summary>Custom</summary>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-3.png" alt="KOKOCE ALT" width="250"/>
 
----
-* [scrollingtext](./kokoce.md)
-* [webview](./kokoce.md)
-* [videoview](./kokoce.md)
-
-</details>
-
-# Modifiers
-<details>
-<summary>Controls</summary>
-
----
-* [alert](./kokoce.md)
-* [sheet](./kokoce.md)
-* [fullScreenCover](./kokoce.md)
-* [actionSheet](./kokoce.md)
-
-</details>
-<details>
-<summary>Effects</summary>
-
----
-* [colorInvert](./kokoce.md)
 
 </details>
-<details>
-<summary>Layout</summary>
+<details markdown="block">
+<summary>hstack</summary>
 
----
-* [frame](./kokoce.md)
+```xml
+<body>
+    <vstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green"/>
+        <circle foregroundColor="blue"/>        
+    </vstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-0.png" alt="KOKOCE ALT" width="250"/>
+
+```xml
+<body>
+  <hstack>
+      <rectangle foregroundColor="red"/>
+      <rectangle foregroundColor="green"/>
+      <rectangle foregroundColor="blue"/>
+  </hstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-1.png" alt="KOKOCE ALT" width="250"/>
+
+```xml
+<body>
+  <vstack>
+      <rectangle foregroundColor="red"/>
+      <rectangle foregroundColor="green"/>
+      <rectangle foregroundColor="blue"/>
+  </vstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-2.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
-<details>
-<summary>Text</summary>
+<details markdown="block">
+<summary>zstack</summary>
 
----
-* [font](./kokoce.md)
+```xml
+<body>
+    <zstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green" padding="50"/>
+        <circle foregroundColor="blue"  padding="50"/>
+    </zstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/zstack-0.png" alt="KOKOCE ALT" width="250"/>
+
+
+</details>
+<details markdown="block">
+<summary>lazyvgrid</summary>
+
+
+</details>
+<details markdown="block">
+<summary>geometryreader</summary>
+
+```xml
+<body>
+<geometryreader proxy="geoProxy">
+
+<zstack>
+    <hstack spacing="0">
+        
+        <rectangle foregroundColor="red" width="{{$geoProxy.width*0.1}}"/>
+        <rectangle foregroundColor="yellow" width="{{$geoProxy.width*0.2}}"/>
+        <rectangle foregroundColor="red" width="{{$geoProxy.width*0.1}}"/>
+        <rectangle foregroundColor="yellow" width="{{$geoProxy.width*0.2}}"/>
+        <rectangle foregroundColor="red" width="{{$geoProxy.width*0.1}}"/>
+        <rectangle foregroundColor="yellow" width="{{$geoProxy.width*0.2}}"/>
+        <rectangle foregroundColor="red" width="{{$geoProxy.width*0.1}}"/>
+        
+    </hstack>
+
+    <text font="largeTitle" background="blue">$geoProxy.width x $geoProxy.height</text>
+</zstack>
+</geometryreader>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/geometryreader-0.png" alt="KOKOCE ALT" width="250"/>
+
+
+</details>
+<details markdown="block">
+<summary>viewthatfits</summary>
+
+```xml
+<body>
+<viewthatfits>
+    <text font="largeTitle">This text should fit in landscape mode</text>
+    <text >This text should fit in portrait mode</text>
+</viewthatfits>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/viewthatfits-0.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
 
-# Actions
-<details>
-<summary>Actions</summary>
+## Paint
+<details markdown="block">
+<summary>lineargradient</summary>
 
----
-* [playSystemSound](./kokoce.md)
-* [playAudio](./kokoce.md)
-* [setAudioSession](./kokoce.md)
+```xml
+<body>
+    <lineargradient gradient="colors:[red,green,blue];startPoint:0.0,0.5;endPoint:1.0,0.5">
+    </lineargradient>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/lineargradient-0.png" alt="KOKOCE ALT" width="250"/>
+
+
+</details>
+<details markdown="block">
+<summary>radialgradient</summary>
+
+```xml
+<body>
+    <radialgradient gradient="colors:[red,green,blue];center:0.5,0.5;startRadius:50;endRadius:200">
+    </radialgradient>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/radialgradient-0.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
 
-# XmlParser
-<details>
-<summary>Xml Parser</summary>
+## Others
 
----
-* [xmlparser](./kokoce.md)
+## Custom
+<details markdown="block">
+<summary>scrollingtext</summary>
+
+```xml
+<body>
+    <vstack background="red">
+    <scrollingtext>Scrolling text</scrollingtext>
+    </vstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/scrollingtext-0.png" alt="KOKOCE ALT" width="250"/>
+
 
 </details>
+<details markdown="block">
+<summary>webview</summary>
 
+```xml
+<body>
+    <webview xignoresSafeArea="" xopacity="0.5">string:b64:PGh0bWw+CiAgICA8aGVhZD4KICAgIAogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgCiAgICAgICAgPHN0eWxlPgogICAgICAgICAgICBib2R5IHsKICBtYXJnaW46IDA7Cgp9CiAgICAgICAgPC9zdHlsZT4KCiAgICAgICAgCiAgICA8L2hlYWQ+CgogICAgCgogICAgPGNhbnZhcyBpZD0iY2FudiIvPgoKICAgIDxzY3JpcHQ+CiAgICAgICAgY29uc3QgY2FudmFzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NhbnYnKTsKY29uc3QgY3R4ID0gY2FudmFzLmdldENvbnRleHQoJzJkJyk7Cgpjb25zdCB3ID0gY2FudmFzLndpZHRoID0gZG9jdW1lbnQuYm9keS5vZmZzZXRXaWR0aDsKY29uc3QgaCA9IGNhbnZhcy5oZWlnaHQgPSBkb2N1bWVudC5ib2R5Lm9mZnNldEhlaWdodDsKY29uc3QgY29scyA9IE1hdGguZmxvb3IodyAvIDIwKSArIDE7CmNvbnN0IHlwb3MgPSBBcnJheShjb2xzKS5maWxsKDApOwoKY3R4LmZpbGxTdHlsZSA9ICcjMDAwJzsKY3R4LmZpbGxSZWN0KDAsIDAsIHcsIGgpOwoKZnVuY3Rpb24gbWF0cml4ICgpIHsKY3R4LmZpbGxTdHlsZSA9ICcjMDAwMSc7CmN0eC5maWxsUmVjdCgwLCAwLCB3LCBoKTsKCmN0eC5maWxsU3R5bGUgPSAnIzBmMCc7CmN0eC5mb250ID0gJzE1cHQgbW9ub3NwYWNlJzsKCnlwb3MuZm9yRWFjaCgoeSwgaW5kKSA9PiB7CmNvbnN0IHRleHQgPSBTdHJpbmcuZnJvbUNoYXJDb2RlKE1hdGgucmFuZG9tKCkgKiAxMjgpOwpjb25zdCB4ID0gaW5kICogMjA7CmN0eC5maWxsVGV4dCh0ZXh0LCB4LCB5KTsKaWYgKHkgPiAxMDAgKyBNYXRoLnJhbmRvbSgpICogMTAwMDApIHlwb3NbaW5kXSA9IDA7CmVsc2UgeXBvc1tpbmRdID0geSArIDIwOwp9KTsKfQoKc2V0SW50ZXJ2YWwobWF0cml4LCA1MCk7CiAgICA8L3NjcmlwdD4KCjwvaHRtbD4=</webview>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/webview-0.png" alt="KOKOCE ALT" width="250"/>
+
+
+</details>
+<details markdown="block">
+<summary>videoview</summary>
+
+```xml
+<body>
+    <videoview src="url:https://shaffex.com/MagicUiDemo/Resources/TestVideo.mp4" videoGravity="resizeAspect"/>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/videoview-0.png" alt="KOKOCE ALT" width="250"/>
+
+
+</details>
