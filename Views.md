@@ -1,4 +1,4 @@
-## Controls 123
+## Controls
 <details markdown="block">
 <summary>button</summary>
 
@@ -131,11 +131,11 @@
 
 ```xml
 <body>
-    <vstack>
+    <hstack>
         <circle foregroundColor="red"/>
         <circle foregroundColor="green"/>
         <circle foregroundColor="blue"/>        
-    </vstack>
+    </hstack>
 </body>
 ```
 
