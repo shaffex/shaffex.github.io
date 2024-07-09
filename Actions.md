@@ -1,3 +1,66 @@
+## Actions
+<details markdown="block">
+<summary>playSystemSound</summary>
+
+```xml
+<body>
+    <button action="playSystemSound:1009">playSystemSound3:1009</button>
+</body>
+```
+
+</details>
+<details markdown="block">
+<summary>playAudio</summary>
+
+```xml
+<body>
+    <button action="playAudio">playAudio</button>
+</body>
+```
+
+</details>
+<details markdown="block">
+<summary>setAudioSession</summary>
+
+```xml
+<body>
+<list>
+    <picker title="Category" key="category" value="ambient">
+        <text tag="ambient">ambient</text>
+        <text tag="playback">playback</text>
+        <text tag="multiRoute">multiRoute</text>
+    </picker>
+
+    <picker title="Mode" key="mode" value="moviePlayback">
+        <text tag="spokenAudio">spokenAudio</text>
+        <text tag="voiceChat">voiceChat</text>
+        <text tag="moviePlayback">moviePlayback</text>
+    </picker>
+
+    <button font="footnote" action="setAudioSession:category:$category;mode:$mode">setAudioSession:category:$category;mode:$mode</button>
+
+    <section>
+        <button action="setAudioSessionIsActive:true">setAudioSessionIsActive:true</button>
+        <button action="setAudioSessionIsActive:false">setAudioSessionIsActive:false</button>
+    </section>
+</list>
+</body>
+```
+
+```xml
+<body>
+<list>
+    <button action="setAudioSession:category:ambient">setAudioSession:category:ambient</button>
+	<button action="setAudioSession:category:multiRoute">setAudioSession:category:multiRoute</button>
+	<button action="setAudioSession:category:playAndRecord">setAudioSessioncategory:playAndRecord</button>
+	<button action="setAudioSession:category:playback">setAudioSession:category:playback</button>
+</list>
+</body>
+```
+
+</details>
+
+
 
 My image:
 
