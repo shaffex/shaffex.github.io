@@ -1,6 +1,9 @@
+
+
 ## Controls
 <details markdown="block">
 <summary>button</summary>
+<br><br>VStack is a container that stacks its children vertically.
 
 ```xml
 <body>
@@ -14,11 +17,13 @@
 </details>
 <details markdown="block">
 <summary>datepicker</summary>
+<br><br>datepicker is a container that stacks its children vertically.
 
 ```xml
 <body>
     <form>
-    	<datepicker key="myDate" vale="20240822173000">Select date</datepicker>
+    	<datepicker key="myDate" value="20240822T173000Z">Select date</datepicker>
+    	<datepicker key="myDatemiw" value="19770822T102030Z">Select date2</datepicker>
     </form>
 </body>
 ```
@@ -29,6 +34,7 @@
 </details>
 <details markdown="block">
 <summary>link</summary>
+<br><br>link is a container that stacks its children vertically.
 
 ```xml
 <body>
@@ -42,6 +48,7 @@
 </details>
 <details markdown="block">
 <summary>list</summary>
+<br><br>list is a container that stacks its children vertically.
 
 ```xml
 <body>
@@ -69,6 +76,21 @@
 ## Layout
 <details markdown="block">
 <summary>vstack</summary>
+<br><br>**VStack** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
+
+***Parameters:***
+
+`alignment` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
+* `center` Aligns the views along the center.
+* `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
+
+
+
+> **Default value:** center
+
+`spacing` (optional) This parameter determines the vertical spacing between the views.
+> **Default value:** System default spacing
 
 ```xml
 <body>
@@ -128,6 +150,7 @@
 </details>
 <details markdown="block">
 <summary>hstack</summary>
+<br><br>HStack is a container that stacks its children vertically.
 
 ```xml
 <body>
@@ -169,6 +192,7 @@
 </details>
 <details markdown="block">
 <summary>zstack</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -186,11 +210,34 @@
 </details>
 <details markdown="block">
 <summary>lazyvgrid</summary>
+<br><br>**LazyVGrid** is a view that arranges its children in a grid with flexible vertical rows. The alignment and spacing parameters determine how the views are aligned and spaced.
+
+***Parameters:***
+
+`alignment` (optional) This parameter determines the horizontal alignment of the views within the LazyVGrid. It's of type HorizontalAlignment and can take the following values:
+* `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
+* `center` Aligns the views along the center.
+* `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
+> **Default value:** center
+
+`spacing` (optional) This parameter determines the vertical spacing between the rows in the grid.
+> **Default value:** System default spacing
+
+`columns` (optional) This parameter determines the grid structure. It's an array of GridItem objects that describe the layout of the grid's columns.
+
+`gridItems` (optional) This parameter determines the grid structure. It's an array of GridItem objects that describe the layout of the grid's columns.
+* `adaptive` text `minimum` `maximum` `spacing` `alignment`
+* `flexible` text
+* `fixed` text
+
+
+> **Note:** You need to specify columns or gridItems
 
 
 </details>
 <details markdown="block">
 <summary>geometryreader</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -221,6 +268,7 @@
 </details>
 <details markdown="block">
 <summary>viewthatfits</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -239,6 +287,7 @@
 ## Paint
 <details markdown="block">
 <summary>lineargradient</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -253,6 +302,7 @@
 </details>
 <details markdown="block">
 <summary>radialgradient</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -271,6 +321,7 @@
 ## Custom
 <details markdown="block">
 <summary>scrollingtext</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -286,6 +337,7 @@
 </details>
 <details markdown="block">
 <summary>webview</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
@@ -299,6 +351,7 @@
 </details>
 <details markdown="block">
 <summary>videoview</summary>
+<br><br>ZStack is a container that overlays its children, aligning them in both axes.
 
 ```xml
 <body>
