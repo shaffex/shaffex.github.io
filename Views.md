@@ -1,8 +1,7 @@
 ## Controls
 <details markdown="block">
 <summary>button</summary>
-
-### 
+&nbsp;
 
 ***Button12345*** is a container that stacks its children vertically.
 
