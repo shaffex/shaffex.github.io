@@ -1,14 +1,18 @@
 ## Controls
 <details markdown="block">
 <summary>button</summary>
-<br>
+<br />
 
 ***Button123*** is a container that stacks its children vertically.
 
+`iOS 13+` `MacOSX` `Tag3`
 
 </details>
 <details markdown="block">
-<summary>datepicker</summary><br>
+<summary>datepicker</summary>
+
+---
+    
 datepicker is a container that stacks its children vertically.
 
 
