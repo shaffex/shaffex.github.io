@@ -1,6 +1,7 @@
 ## Controls
 <details markdown="block">
-<summary>button</summary><br>
+<summary>button</summary>
+<br>
 
 ***Button*** is a container that stacks its children vertically.
 
