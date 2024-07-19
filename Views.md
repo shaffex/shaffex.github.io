@@ -1,7 +1,6 @@
 ## Controls
 <details markdown="block">
 <summary>button</summary><br>
-
 VStack is a container that stacks its children vertically.
 
 
