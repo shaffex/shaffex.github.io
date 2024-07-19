@@ -1,27 +1,25 @@
 ## Controls
 <details markdown="block">
 <summary>button</summary><br>
-VStack is a container that stacks its children vertically.
+
+***Button*** is a container that stacks its children vertically.
 
 
 </details>
 <details markdown="block">
 <summary>datepicker</summary><br>
-
 datepicker is a container that stacks its children vertically.
 
 
 </details>
 <details markdown="block">
 <summary>link</summary><br>
-
 link is a container that stacks its children vertically.
 
 
 </details>
 <details markdown="block">
 <summary>list</summary><br>
-
 list is a container that stacks its children vertically.
 
 
@@ -30,7 +28,6 @@ list is a container that stacks its children vertically.
 ## Layout
 <details markdown="block">
 <summary>vstack</summary><br>
-
 **VStackKOKOCE** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
 > **Note:** Piknova
@@ -121,7 +118,6 @@ list is a container that stacks its children vertically.
 </details>
 <details markdown="block">
 <summary>hstack</summary><br>
-
 HStack is a container that stacks its children vertically.
 
 ## Examples
@@ -175,14 +171,12 @@ HStack is a container that stacks its children vertically.
 </details>
 <details markdown="block">
 <summary>zstack</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>lazyvgrid</summary><br>
-
 **LazyVGrid** is a view that arranges its children in a grid with flexible vertical rows. The alignment and spacing parameters determine how the views are aligned and spaced.
 
 ***Parameters:***
@@ -210,14 +204,12 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </details>
 <details markdown="block">
 <summary>geometryreader</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>viewthatfits</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
@@ -226,14 +218,12 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ## Paint
 <details markdown="block">
 <summary>lineargradient</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>radialgradient</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
@@ -244,21 +234,18 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ## Custom
 <details markdown="block">
 <summary>scrollingtext</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>webview</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>videoview</summary><br>
-
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
