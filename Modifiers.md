@@ -71,9 +71,11 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <details markdown="block">
 <summary>font</summary><br>
 
-ZStack is a container that overlays its children, aligning them in both axes.
+`font` modifier is used to set the font of text-based views (like Text, TextField, Label, etc.) in your SwiftUI views. You can specify the size, weight, and style of the font using this modifier. The font modifier can take various parameters, including predefined text styles (like .title, .body, .caption, etc.) that automatically adjust to the user's preferred text size, or custom fonts where you specify the font name and size.
 
-* Predefined system fonts*
+## Examples
+
+*Predefined system fonts*
 
 ```xml
 <body>
@@ -98,7 +100,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-0.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-* Font and colors*
+*Font and colors*
 
 ```xml
 <body>
@@ -116,7 +118,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-1.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-* System font with size and weight*
+*System font with size and weight*
 
 ```xml
 <body>
@@ -136,7 +138,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-2.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-* Custom font and size*
+*Custom font and size*
 
 ```xml
 <body>
