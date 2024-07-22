@@ -149,6 +149,72 @@ datepicker is a container that stacks its children vertically.
 
 </details>
 <details markdown="block">
+<summary>label</summary><br>
+
+**Label** is a view that combines a text view with an icon view, providing a user interface element that can display both text and an image side by side. It is commonly used to represent actions, content, or to communicate the status of something in a concise and visually informative way.
+
+***Parameters:***
+
+`systemImage` (optional) Name of the SF symbol
+
+`name` (optional) Name of image embedded in assets
+
+
+
+```xml
+<body>
+  <form>
+    <label foregroundColor="orange">Label with no image</label>
+    <label systemImage="car.fill">Label with system image</label>
+    <label foregroundColor="orange" systemImage="car.fill">Label with system image</label>
+    <label image="noob2-30x30">Label with custom image</label>
+    
+    <label labelStyle="titleOnly" systemImage="car.fill">Label with system image</label>
+   </form>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/label-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*Label with labelStyle*
+
+```xml
+<body>
+  <list padding="">
+    <section footer="no labelStyle provided">
+      <label systemImage="car.fill">Label title</label>
+    </section>
+    
+    <section footer="labelStyle=automatic">
+      <label labelStyle="automatic" systemImage="car.fill">Label title</label>
+    </section>
+    
+    <section footer="labelStyle=automatic (with red color)">
+      <label foregroundColor="red" labelStyle="automatic" systemImage="car.fill">Label title</label>
+    </section>
+    
+    <section footer="labelStyle=iconOnly">
+      <label labelStyle="iconOnly" systemImage="car.fill">Label title</label>
+    </section>
+    
+    <section footer="labelStyle=titleOnly">
+      <label labelStyle="titleOnly" systemImage="car.fill">Label title</label>
+    </section>
+    
+    <section footer="labelStyle=titleAndIcon">
+      <label labelStyle="titleAndIcon" systemImage="car.fill">Label title</label>
+    </section>
+   </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/label-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
 <summary>link</summary><br>
 
 link is a view that creates a navigation link to a URL that you provide. It allows you to open web URLs or deep links into other apps from your SwiftUI app. When a user taps on a Link, the system opens the URL in the appropriate app. For web URLs, this typically means opening the URL in the default web browser.
@@ -413,7 +479,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 
 ```xml
 <body>
-  <hstack>
+  <hstack spacing="0">
       <rectangle foregroundColor="red"/>
       <rectangle foregroundColor="green"/>
       <rectangle foregroundColor="blue"/>
