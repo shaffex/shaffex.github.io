@@ -1,20 +1,33 @@
 ## Controls
 <details markdown="block">
 <summary>button</summary><br>
+
+**Button** is a user interface component that triggers an action when tapped by the user. It can display text, an icon, or both, and it's highly customizable.
 In SwiftUI, a Button is a user interface control that performs an action when tapped by the user. It can contain text, an image, or both, and you can customize its appearance and behavior.
+
+***Parameters:***
+
+`action`  is the action executed when the button is tapped. For more details see [Actions](./Actions.md)
+
+`role` (optional)  is used to semantically indicate the purpose of a button, such as whether it performs a destructive action or is a cancel button. This semantic information can be used by the system to adjust the button's appearance accordingly and to provide appropriate accessibility features.
+* `none` Default button behaviour
+* `destructive` Indicates that the action performed by the button is irreversible or could lead to data loss. This role is used to warn users about the potential consequences of their action. The system may also use this semantic information to style the button accordingly, often with a red color, to signal its destructive nature to the user.
+* `cancel` Indicates that the action performed by the button will dismiss a view or cancel the current operation without making any changes. This role is particularly useful in dialogues or modal views where you have actions like "Cancel" or "Dismiss" that allow the user to opt-out of a process without proceeding further. The system may use this semantic information to style the button appropriately or to handle the button action in a way that's consistent with cancel operations across the OS.
+> **Note:** If you don't specify any `role`, default value is `none`
+
+## Examples
 
 *Confirmation dialog with positive, destructive and cancel buttons*
 
 ```xml
 <body>
-    <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog">
-    </vstack>
+  <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog"/>
     
-    <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
+  <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
     <button role="">Positive</button>
     <button role="destructive">Destructive</button>
     <button role="cancel">Cancel</button>
-    </alert>
+  </alert>
 </body>
 ```
 
@@ -115,6 +128,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </details>
 <details markdown="block">
 <summary>datepicker</summary><br>
+
 datepicker is a container that stacks its children vertically.
 
 
@@ -135,6 +149,7 @@ datepicker is a container that stacks its children vertically.
 </details>
 <details markdown="block">
 <summary>link</summary><br>
+
 link is a view that creates a navigation link to a URL that you provide. It allows you to open web URLs or deep links into other apps from your SwiftUI app. When a user taps on a Link, the system opens the URL in the appropriate app. For web URLs, this typically means opening the URL in the default web browser.
 
 
@@ -152,6 +167,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </details>
 <details markdown="block">
 <summary>list</summary><br>
+
 list is a container that stacks its children vertically.
 
 
@@ -184,16 +200,17 @@ list is a container that stacks its children vertically.
 </details>
 <details markdown="block">
 <summary>toggle</summary><br>
+
 In SwiftUI, a Toggle is a control that allows users to toggle between a true or false state. It is visually represented as a switch that users can tap or swipe to change its state. The Toggle view takes a binding to a Boolean value, which it updates according to the user's interaction. It also requires a label, which is typically used to describe the purpose of the toggle.
 
 *My Toggle*
 
 ```xml
 <body>
-	<form>
+  <form>
     <toggle key="myToggle" value="true">My Toggle2</toggle>
     <toggle key="myToggle2" value="false">My Toggle2</toggle>
-    </form>
+   </form>
 </body>
 ```
 
@@ -206,6 +223,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 ## Layout
 <details markdown="block">
 <summary>vstack</summary><br>
+
 **VStackKOKOCE** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
 > **Note:** Moja poznamka
@@ -296,6 +314,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </details>
 <details markdown="block">
 <summary>hstack</summary><br>
+
 HStack is a container that stacks its children vertically.
 
 ## Examples
@@ -349,12 +368,14 @@ HStack is a container that stacks its children vertically.
 </details>
 <details markdown="block">
 <summary>zstack</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>lazyvgrid</summary><br>
+
 **LazyVGrid** is a view that arranges its children in a grid with flexible vertical rows. The alignment and spacing parameters determine how the views are aligned and spaced.
 
 ***Parameters:***
@@ -382,12 +403,14 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </details>
 <details markdown="block">
 <summary>geometryreader</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>viewthatfits</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
@@ -396,6 +419,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ## Paint
 <details markdown="block">
 <summary>lineargradient</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
@@ -414,6 +438,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </details>
 <details markdown="block">
 <summary>radialgradient</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
@@ -436,18 +461,21 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ## Custom
 <details markdown="block">
 <summary>scrollingtext</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>webview</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
 </details>
 <details markdown="block">
 <summary>videoview</summary><br>
+
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
