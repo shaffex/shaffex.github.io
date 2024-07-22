@@ -234,6 +234,33 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-2.png" alt="KOKOCE ALT" width="250"/>
 
 ---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
 
 </details>
 <details markdown="block">
@@ -262,9 +289,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 <details markdown="block">
 <summary>vstack</summary><br>
 
-**VStackKOKOCE** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
-
-> **Note:** Moja poznamka
+**VStac** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
 ***Parameters:***
 
@@ -272,8 +297,6 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 * `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
 * `center` Aligns the views along the center.
 * `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
-
-
 
 > **Default value:** center
 
@@ -353,7 +376,21 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 <details markdown="block">
 <summary>hstack</summary><br>
 
-HStack is a container that stacks its children vertically.
+**HStack** is a view that arranges its children in a horizontal line. The alignment parameter determines how the views are aligned vertically.
+
+***Parameters:***
+
+`alignment` (optional) This parameter determines the vertical alignment of the views within the HStack. It's of type VerticalAlignment and can take the following values:
+* `top` Aligns the views along the top edge.
+* `center` Aligns the views along the center.
+* `bottom` Aligns the views along the bottom edge.
+* `firstTextBaseline` Aligns the first line of text in each view along a common baseline.
+* `lastTextBaseline` Aligns the last line of text in each view along a common baseline.
+
+> **Default value:** center
+
+`spacing` (optional) This parameter determines the horizontal spacing between the views.
+> **Default value:** System default spacing
 
 ## Examples
 
@@ -387,14 +424,33 @@ HStack is a container that stacks its children vertically.
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-1.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-
+*Example with various spacings*
 
 ```xml
 <body>
   <vstack>
-      <rectangle foregroundColor="red"/>
-      <rectangle foregroundColor="green"/>
+  
+  <text>spacing 0:</text>
+  <hstack spacing="0">
+    <rectangle foregroundColor="red"/>
+      <circle foregroundColor="green"/>
       <rectangle foregroundColor="blue"/>
+  </hstack>
+  
+  <text>spacing 20:</text>
+  <hstack spacing="20">
+    <rectangle foregroundColor="red"/>
+    <circle foregroundColor="green"/>
+    <rectangle foregroundColor="blue"/>
+  </hstack>
+  
+  <text>spacing 100:</text>
+  <hstack spacing="100">
+    <rectangle foregroundColor="red"/>
+    <circle foregroundColor="green"/>
+    <rectangle foregroundColor="blue"/>
+  </hstack>
+  
   </vstack>
 </body>
 ```
@@ -402,13 +458,78 @@ HStack is a container that stacks its children vertically.
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-2.png" alt="KOKOCE ALT" width="250"/>
 
 ---
+*Example with various alignments*
+
+```xml
+<body>
+  <vstack>
+  
+  <text>top alignment:</text>
+  <hstack alignment="top">
+    <rectangle foregroundColor="red"/>
+      <circle foregroundColor="green"/>
+      <rectangle foregroundColor="blue"/>
+  </hstack>
+  
+  <text>center alignment:</text>
+  <hstack alignment="center">
+    <rectangle foregroundColor="red"/>
+    <circle foregroundColor="green"/>
+    <rectangle foregroundColor="blue"/>
+  </hstack>
+  
+  <text>bottom alignment:</text>
+  <hstack alignment="bottom">
+    <rectangle foregroundColor="red"/>
+    <circle foregroundColor="green"/>
+    <rectangle foregroundColor="blue"/>
+  </hstack>
+  
+  </vstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/hstack-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
 
 </details>
 <details markdown="block">
 <summary>zstack</summary><br>
 
-ZStack is a container that overlays its children, aligning them in both axes.
+**ZStack** is a view that layers its children on top of each other, aligning them in both the horizontal and vertical axes. The alignment parameter determines how the views are aligned within the ZStack.
 
+
+***Parameters:***
+
+`alignment` (optional) This parameter determines the alignment of the views within the ZStack. It's of type Alignment and can take the following values:
+* `topLeading` Aligns the views at the top leading corner.
+* `top` Aligns the views along the top edge.
+* `topTrailing` Aligns the views at the top trailing corner.
+* `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
+* `center` Aligns the views at the center.
+* `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
+* `bottomLeading` Aligns the views at the bottom leading corner.
+* `bottom` Aligns the views along the bottom edge.
+* `bottomTrailing` Aligns the views at the bottom trailing corner.
+
+> **Default value:** center
+
+*Example with circles in zstack*
+
+```xml
+<body>
+    <zstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green" padding="50"/>
+        <circle foregroundColor="blue"  padding="100"/>
+    </zstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/zstack-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
 
 </details>
 <details markdown="block">
