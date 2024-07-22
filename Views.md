@@ -169,32 +169,69 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 <details markdown="block">
 <summary>list</summary><br>
 
-list is a container that stacks its children vertically.
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
 
 
 
 ```xml
 <body>
-    <list>
-        <text>Item 1</text>
-    </list>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
 </body>
 ```
 
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-0.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-*Grouped List*
+*grouped List*
 
 ```xml
 <body>
-    <list listStyle="grouped">
-        <text>Item 1</text>
-    </list>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
 </body>
 ```
 
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/list-2.png" alt="KOKOCE ALT" width="250"/>
 
 ---
 
