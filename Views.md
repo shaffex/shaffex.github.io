@@ -159,17 +159,17 @@ datepicker is a container that stacks its children vertically.
 
 `name` (optional) Name of image embedded in assets
 
+## Examples
+
 
 
 ```xml
 <body>
   <form>
-    <label foregroundColor="orange">Label with no image</label>
+    <label>Label with no image</label>
     <label systemImage="car.fill">Label with system image</label>
     <label foregroundColor="orange" systemImage="car.fill">Label with system image</label>
     <label image="noob2-30x30">Label with custom image</label>
-    
-    <label labelStyle="titleOnly" systemImage="car.fill">Label with system image</label>
    </form>
 </body>
 ```
@@ -645,7 +645,13 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <details markdown="block">
 <summary>lineargradient</summary><br>
 
-ZStack is a container that overlays its children, aligning them in both axes.
+LinearGradient in SwiftUI is a view that creates a linear gradient color transition over a specified direction or angle. It's used to fill or overlay views with a gradient that shifts between two or more colors. The gradient can be customized to start and end at specific points, and you can control the direction of the color transition by specifying the start and end points.
+
+***Parameters:***
+
+`gradient` Observe the example to learn specifying colors, along with startPoint and endPoint for gradients. startPoint and endPoint utilize UnitPoint for positioning.
+
+## Examples
 
 
 
@@ -664,7 +670,11 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <details markdown="block">
 <summary>radialgradient</summary><br>
 
-ZStack is a container that overlays its children, aligning them in both axes.
+RadialGradient in SwiftUI is a view that creates a radial gradient color transition from an inner point to an outer circular shape. It's used to fill or overlay views with a gradient that radiates from the center to the edges with two or more colors. The gradient can be customized by specifying the center, start radius, and end radius, allowing control over the gradient's focal point and spread.
+
+***Parameters:***
+
+`gradient` See the example to understand how to specify colors, along with center, startRadius, and endRadius for radial gradients. The center is specified in UnitPoint for positioning, while startRadius and endRadius are specified in points to determine the gradient's spread.
 
 
 
@@ -690,6 +700,19 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
+
+```xml
+<body>
+    <vstack background="red">
+    <scrollingtext>Scrolling text</scrollingtext>
+    </vstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/scrollingtext-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
 </details>
 <details markdown="block">
 <summary>webview</summary><br>
@@ -697,11 +720,33 @@ ZStack is a container that overlays its children, aligning them in both axes.
 ZStack is a container that overlays its children, aligning them in both axes.
 
 
+
+```xml
+<body>
+    <webview xignoresSafeArea="" xopacity="0.5">string:b64:PGh0bWw+CiAgICA8aGVhZD4KICAgIAogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgCiAgICAgICAgPHN0eWxlPgogICAgICAgICAgICBib2R5IHsKICBtYXJnaW46IDA7Cgp9CiAgICAgICAgPC9zdHlsZT4KCiAgICAgICAgCiAgICA8L2hlYWQ+CgogICAgCgogICAgPGNhbnZhcyBpZD0iY2FudiIvPgoKICAgIDxzY3JpcHQ+CiAgICAgICAgY29uc3QgY2FudmFzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NhbnYnKTsKY29uc3QgY3R4ID0gY2FudmFzLmdldENvbnRleHQoJzJkJyk7Cgpjb25zdCB3ID0gY2FudmFzLndpZHRoID0gZG9jdW1lbnQuYm9keS5vZmZzZXRXaWR0aDsKY29uc3QgaCA9IGNhbnZhcy5oZWlnaHQgPSBkb2N1bWVudC5ib2R5Lm9mZnNldEhlaWdodDsKY29uc3QgY29scyA9IE1hdGguZmxvb3IodyAvIDIwKSArIDE7CmNvbnN0IHlwb3MgPSBBcnJheShjb2xzKS5maWxsKDApOwoKY3R4LmZpbGxTdHlsZSA9ICcjMDAwJzsKY3R4LmZpbGxSZWN0KDAsIDAsIHcsIGgpOwoKZnVuY3Rpb24gbWF0cml4ICgpIHsKY3R4LmZpbGxTdHlsZSA9ICcjMDAwMSc7CmN0eC5maWxsUmVjdCgwLCAwLCB3LCBoKTsKCmN0eC5maWxsU3R5bGUgPSAnIzBmMCc7CmN0eC5mb250ID0gJzE1cHQgbW9ub3NwYWNlJzsKCnlwb3MuZm9yRWFjaCgoeSwgaW5kKSA9PiB7CmNvbnN0IHRleHQgPSBTdHJpbmcuZnJvbUNoYXJDb2RlKE1hdGgucmFuZG9tKCkgKiAxMjgpOwpjb25zdCB4ID0gaW5kICogMjA7CmN0eC5maWxsVGV4dCh0ZXh0LCB4LCB5KTsKaWYgKHkgPiAxMDAgKyBNYXRoLnJhbmRvbSgpICogMTAwMDApIHlwb3NbaW5kXSA9IDA7CmVsc2UgeXBvc1tpbmRdID0geSArIDIwOwp9KTsKfQoKc2V0SW50ZXJ2YWwobWF0cml4LCA1MCk7CiAgICA8L3NjcmlwdD4KCjwvaHRtbD4=</webview>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/webview-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
 </details>
 <details markdown="block">
 <summary>videoview</summary><br>
 
 ZStack is a container that overlays its children, aligning them in both axes.
 
+
+
+```xml
+<body>
+    <videoview src="url:https://shaffex.com/MagicUiDemo/Resources/TestVideo.mp4" videoGravity="resizeAspect"/>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/videoview-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
 
 </details>
