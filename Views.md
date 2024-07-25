@@ -385,7 +385,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png?a=1" alt="KOKOCE ALT" width="250"/>
 
 ---
 
@@ -400,7 +400,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png?a=1" alt="KOKOCE ALT" width="250"/>
 
 ---
 
@@ -415,7 +415,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png?a=1" alt="KOKOCE ALT" width="250"/>
 
 ---
 *Toto je priklad 4*
@@ -434,7 +434,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-3.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-3.png?a=1" alt="KOKOCE ALT" width="250"/>
 
 ---
 
