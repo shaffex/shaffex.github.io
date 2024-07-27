@@ -340,7 +340,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 
 `value` Default selection value
 
-`value` (optional) Picker title
+`title` (optional) Picker title
 
 ## Examples
 
@@ -797,7 +797,48 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 
 </details>
 
-## Others
+## Other
+<details markdown="block">
+<summary>contentunavailableview</summary><br>
+
+**ContentUnavailableView** is a view that you can use to indicate that content is not available. This view is typically used when there is no data to display or when an error has occurred that prevents content from being shown. It provides a standardized way to inform users that the expected content cannot be displayed.
+
+***Parameters:***
+
+`title` Text view that provides the main message to the user.
+
+`` (optional) Text view that provides additional context or instructions.
+
+`image` (optional) An optional Image view that can be used to visually represent the unavailability of content.
+
+## Examples
+
+* If no systemImage provided*
+
+```xml
+<body>  
+  <contentunavailableview title="Title" description="Description">
+  </contentunavailableview>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/contentunavailableview-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+* If no systemImage provided*
+
+```xml
+<body>  
+  <contentunavailableview title="Title" description="Description" systemImage="exclamationmark.triangle">
+  </contentunavailableview>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/contentunavailableview-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
 
 ## Custom
 <details markdown="block">
