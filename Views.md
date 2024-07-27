@@ -330,6 +330,112 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 
 </details>
 <details markdown="block">
+<summary>picker</summary><br>
+
+**Picker** is a control used to select a value from a list of mutually exclusive values. It can be presented in various styles, such as a wheel, segmented control, or menu. The Picker is often used in forms or settings screens where users need to choose from a predefined set of options.
+
+***Parameters:***
+
+`key` Name of the variable that will store the selected value from the picker.
+
+`value` Default selection value
+
+`value` (optional) Picker title
+
+## Examples
+
+
+
+```xml
+<body>
+    
+<form>
+<section footer="Selected value: $myPicker">
+<picker title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="nlue">Blue</text>	
+</picker>
+</section>
+
+<section footer="pickerStyle=&quot;segmented&quot;">
+<picker pickerStyle="segmented" title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="blue">Blue</text>	
+</picker>
+</section>
+
+<section footer="pickerStyle=&quot;menu&quot;">
+<picker pickerStyle="menu" title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="blue">Blue</text>	
+</picker>
+</section>
+
+<section footer="pickerStyle=&quot;navigationLink&quot;">
+<picker pickerStyle="navigationLink" title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="blue">Blue</text>	
+</picker>
+</section>
+
+<section footer="pickerStyle=&quot;inline&quot;">
+<picker pickerStyle="inline" title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="blue">Blue</text>	
+</picker>
+</section>
+
+</form>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/picker-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+
+```xml
+<body>
+    
+<form>
+
+<section footer="pickerStyle=&quot;wheel&quot;">
+<picker height="120" pickerStyle="wheel" title="Select Color" key="myPicker" value="green">My Toggle>
+	<text tag="red">Red</text>
+	<text tag="green">Green</text>
+	<text tag="blue">Blue</text>	
+</picker>
+</section>
+
+
+<section footer="pickerStyle=&quot;wheel&quot;">
+<picker pickerStyle="wheel" title="Select Day" key="myPickerDay" value="Monday">My Toggle>
+  <text tag="Monday">Monday</text>
+  <text tag="Tuesday">Tuesday</text>
+  <text tag="Wednesday">Wednesday</text>
+  <text tag="Thursday">Thursday</text>
+  <text tag="Friday">Friday</text>
+  <text tag="Saturday">Saturday</text>
+  <text tag="Sunday">Sunday</text>
+</picker>
+</section>
+
+</form>
+
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/picker-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
 <summary>toggle</summary><br>
 
 In SwiftUI, a Toggle is a control that allows users to toggle between a true or false state. It is visually represented as a switch that users can tap or swipe to change its state. The Toggle view takes a binding to a Boolean value, which it updates according to the user's interaction. It also requires a label, which is typically used to describe the purpose of the toggle.
@@ -385,7 +491,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png?a=1" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png" alt="KOKOCE ALT" width="250"/>
 
 ---
 
@@ -400,7 +506,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png?a=1" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png" alt="KOKOCE ALT" width="250"/>
 
 ---
 
@@ -415,7 +521,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png?a=1" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png" alt="KOKOCE ALT" width="250"/>
 
 ---
 *Toto je priklad 4*
@@ -434,7 +540,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-3.png?a=1" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-3.png" alt="KOKOCE ALT" width="250"/>
 
 ---
 
