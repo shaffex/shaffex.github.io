@@ -149,6 +149,103 @@ datepicker is a container that stacks its children vertically.
 
 </details>
 <details markdown="block">
+<summary>form</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/form-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/form-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/form-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/form-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
 <summary>label</summary><br>
 
 **Label** is a view that combines a text view with an icon view, providing a user interface element that can display both text and an image side by side. It is commonly used to represent actions, content, or to communicate the status of something in a concise and visually informative way.
@@ -330,6 +427,394 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 
 </details>
 <details markdown="block">
+<summary>menu</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/menu-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/menu-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/menu-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/menu-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
+<summary>navigationlink</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationlink-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationlink-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationlink-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationlink-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
+<summary>navigationstack</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationstack-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationstack-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationstack-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationstack-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
+<summary>navigationview</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationview-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationview-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationview-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/navigationview-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
 <summary>picker</summary><br>
 
 **Picker** is a control used to select a value from a list of mutually exclusive values. It can be presented in various styles, such as a wheel, segmented control, or menu. The Picker is often used in forms or settings screens where users need to choose from a predefined set of options.
@@ -436,6 +921,200 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 
 </details>
 <details markdown="block">
+<summary>slider</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/slider-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/slider-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/slider-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/slider-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
+<summary>stepper</summary><br>
+
+**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+
+***Parameters:***
+
+`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
+* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
+* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
+* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
+* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
+* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+
+> **Default value:** `automatic`
+
+
+
+```xml
+<body>
+  <list>
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/stepper-0.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*grouped List*
+
+```xml
+<body>
+  <list listStyle="grouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/stepper-1.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*insetGrouped List*
+
+```xml
+<body>
+  <list listStyle="insetGrouped">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/stepper-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*List with sections*
+
+```xml
+<body>
+  <list>
+  	<section header="Section 1 Header" footer="Section 1 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+    
+    <section header="Section 2 Header" footer="Section 2 Footer">
+    <text>Item 1</text>
+    <text>Item 2</text>
+    <text>Item 3</text>
+    <text>Item 4</text>
+    <text>Item 5</text>
+    </section>
+  </list>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/stepper-3.png" alt="KOKOCE ALT" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
 <summary>toggle</summary><br>
 
 In SwiftUI, a Toggle is a control that allows users to toggle between a true or false state. It is visually represented as a switch that users can tap or swipe to change its state. The Toggle view takes a binding to a Boolean value, which it updates according to the user's interaction. It also requires a label, which is typically used to describe the purpose of the toggle.
@@ -477,23 +1156,6 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 
 ## Examples
 
-*Example 1: How to pickup a Noob*
-
-```xml
-<body>
-    <foreach repeatCount="8">
-    <hstack>
-        <rectangle foregroundColor="red"/>
-        <rectangle foregroundColor="orange"/>
-        <rectangle foregroundColor="red"/>
-    </hstack>
-    </foreach>
-</body>
-```
-
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png" alt="KOKOCE ALT" width="250"/>
-
----
 
 
 ```xml
@@ -506,14 +1168,14 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-0.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-
+*With no spacing*
 
 ```xml
 <body>
-  <vstack>
+  <vstack spacing="0">
       <rectangle foregroundColor="red"/>
       <rectangle foregroundColor="green"/>
       <rectangle foregroundColor="blue"/>
@@ -521,10 +1183,10 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-1.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-*Toto je priklad 4*
+*Combined with hstack*
 
 ```xml
 <body>
@@ -537,6 +1199,23 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
       </vstack>
       <rectangle foregroundColor="yellow"/>
   </hstack>
+</body>
+```
+
+<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/vstack-2.png" alt="KOKOCE ALT" width="250"/>
+
+---
+*Combined with hstack*
+
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
 </body>
 ```
 
@@ -807,13 +1486,13 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 
 `title` Text view that provides the main message to the user.
 
-`` (optional) Text view that provides additional context or instructions.
+`description` (optional) Text view that provides additional context or instructions.
 
-`image` (optional) An optional Image view that can be used to visually represent the unavailability of content.
+`systemImage` (optional) An optional system Image view that can be used to visually represent the unavailability of content.
 
 ## Examples
 
-* If no systemImage provided*
+*If no systemImage provided*
 
 ```xml
 <body>  
@@ -825,7 +1504,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 <img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/contentunavailableview-0.png" alt="KOKOCE ALT" width="250"/>
 
 ---
-* If no systemImage provided*
+*If no systemImage provided*
 
 ```xml
 <body>  
