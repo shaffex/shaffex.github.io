@@ -70,44 +70,11 @@ Unlike many XML parsers, our solution maintains the order of attributes in XML e
 * [Modifiers](./Modifiers.md)
 * [Actions](./Actions.md)
 
-<details>
-<summary>Section AAA</summary>
-<details>
-<summary>Section A.B</summary>
-<details>
-<summary>Section A.B.C</summary>
-<details>
-<summary>Section A.B.C.D</summary>
-  Done!
-</details>
-</details>
-</details>
-</details>
+## Create your own views
+[How to create view plugin](./PluginViews.md)
 
-<details open>
-  <summary>Hello</summary>
-  World!
-</details>
+## Create your own modifiers
+[How to create modifier plugin](./PluginModifiers.md)
 
-<details>
-  <summary>Expand me</summary>
-  
-```xml
-<vstack>
-  <circle foregroundColor="red"/>
-  <circle foregroundColor="green"/>
-  <circle foregroundColor="blue"/>
-</vstack>
-```
-
-</details>
-
-
-
-```
-let a = 7
-```
-
-```swift
-let a = 7
-```
+## Create your own actions
+[How to create action plugin](./PluginActions.md)
