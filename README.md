@@ -64,17 +64,16 @@ Unlike many XML parsers, our solution maintains the order of attributes in XML e
 
 </details>
 
-## Plugins
+## Available Plugins
 
-* [Views](./Views.md)
-* [Modifiers](./Modifiers.md)
-* [Actions](./Actions.md)
+### Views
+* [Supported Views](./Views.md)
+* [How to create view plugin](./PluginViews.md)
 
-## Create your own views
-[How to create view plugin](./PluginViews.md)
+### Modifiers
+* [Supported Modifiers](./Modifiers.md)
+* [How to create modifier plugin](./PluginModifiers.md)
 
-## Create your own modifiers
-[How to create modifier plugin](./PluginModifiers.md)
-
-## Create your own actions
-[How to create action plugin](./PluginActions.md)
+### Actions
+* [Supported Action](./Actions.md)
+* [How to create action plugin](./PluginActions.md)
