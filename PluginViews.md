@@ -8,6 +8,7 @@ This method allows you to create a custom view that can access and use attribute
 
 ### Example: Text with Subtitle
 In this example, we create a simple view that displays a title and subtitle, both of which can be defined in the XML.
+To create a custom view plugin, you need to conform to the `CustomViewPlugin` protocol.
 
 ```swift
 struct TextWithSubtitle: CustomViewPlugin {
