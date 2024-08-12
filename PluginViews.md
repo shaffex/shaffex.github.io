@@ -10,7 +10,7 @@ This method allows you to create a custom view that can access and use attribute
 In this example, we create a simple view that displays a title and subtitle, both of which can be defined in the XML.
 
 ```swift
-struct TextWithSubtitle: SxCustomViewProtocol {
+struct TextWithSubtitle: CustomViewPlugin {
     let view: SxNodeView?
     
     var body: some View {
@@ -31,7 +31,7 @@ struct TextWithSubtitle: SxCustomViewProtocol {
 To make this custom view available within your Magic UI setup, install it as follows:
 
 ```swift
-SxMagicUiView.installViewPlugin(name: "textwithsubtitle", plugin: TextWithSubtitle.self)
+MagicUiView.installViewPlugin(name: "textwithsubtitle", plugin: TextWithSubtitle.self)
 ```
 
 ### Usage
@@ -66,7 +66,7 @@ struct ClockView: View {
 ### Installation
 To make this view accessible in your XML layout, install it using the following code:
 ```swift
-SxMagicUiView.installViewPlugin(name: "clockview", plugin: ClockView())
+MagicUiView.installViewPlugin(name: "clockview", plugin: ClockView())
 ```
 
 ### Usage
