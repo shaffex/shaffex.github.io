@@ -1,7 +1,5 @@
 # MagicUI
 
-* [Test](./Test.md)
-
 Welcome to **MagicUI**, a revolutionary user interface framework designed with performance and flexibility in mind. 
 
 ## Ultra Lightweight
@@ -20,48 +18,7 @@ Experience the magic of user interface development with MagicUI!
 
 ## Customised and Blazing Fast XML Parser
 Our XML parser is a high-performance, customised solution designed to handle a wide range of XML documents. It's engineered to be blazing fast, making it ideal for applications that require real-time processing of large XML files.
-<details>
-<summary>Details (Click to expand)</summary>
-
-<h2>Features</h2>
-
-<h3>Support for Comments</h3>
-
-Our parser fully supports XML comments. This means you can include notes in your XML documents without affecting the data that the parser extracts.
-
-```xml
-<body>
-<!-- This is a comment which will be ignored by parser -->
-</text>Hello MagicUI!</text>
-</body>
-```
-
-<h3>CDATA Support</h3>
-
-```xml
-<body>
-<text><![CDATA[Any special characters like <>&']]></text>
-</body>
-```
-
-The parser also supports CDATA sections, allowing you to include text that the parser will not interpret as XML markup. This is useful for including content such as scripts or HTML markup in your XML documents.
-
-<h3>Ordered Attributes</h3>
-
-Unlike many XML parsers, our solution maintains the order of attributes in XML elements. This can be crucial for applications where the order of attributes matters like in SwiftUI views.
-
-```xml
-<body>
-<text font="largeTitle" background="yellow" padding="20">MAGIC UI</text>
-</body>
-```
-
-```xml
-<body>
-<text font="largeTitle" padding="" background="yellow">MAGIC UI</text>
-</body>
-```
-</details>
+* [More info about XML Parser](./XmlParser.md)
 
 # How to integrate Magic UI into your project
 
@@ -70,7 +27,7 @@ Unlike many XML parsers, our solution maintains the order of attributes in XML e
 To start using Magic UI in your Swift project, the first step is to add Swift Package and import the `MagicUiFramework`. This framework provides all the necessary classes and methods to create and render dynamic UI components based on XML.
 
 
-#### Add this Swift Package:
+#### Add this Swift Package into your XCode project:
 ```
 https://gitlab.com/magicui/magicui-framework-beta.git (will be updated)
 ```
