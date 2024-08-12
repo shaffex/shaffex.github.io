@@ -6,7 +6,7 @@ To create your custom modifier plugin
 import SwiftUI
 import MagicUiFramework
 
-struct SxModifier_flipX: SxCustomModifierProtocol {
+struct Modifier_flipX: CustomModifierPlugin {
     @EnvironmentObject var sxEnv: SxEnvironmentObject
     var parameter: String = ""
     var view: SxNodeView?
@@ -16,18 +16,18 @@ struct SxModifier_flipX: SxCustomModifierProtocol {
     }
         
     static func getModifier<Content: View>(content: Content, parameter: String, view: SxNodeView?) -> AnyView {
-        AnyView(content.modifier(SxModifier_flipX(parameter: parameter, view: view)))
+        AnyView(content.modifier(Modifier_flipX(parameter: parameter, view: view)))
     }
 }
 ```
 
 Install plugin:
 ```swift
-SxMagicUiView.installModifierPlugin(name: "flipX", plugin: SxModifier_flipX.self)
+MagicUiView.installModifierPlugin(name: "flipX", plugin: Modifier_flipX.self)
 ```
 
 ```swift
-struct SxModifier_rotateDegrees: SxCustomModifierProtocol {
+struct Modifier_rotateDegrees: CustomModifierPlugin {
     @EnvironmentObject var sxEnv: SxEnvironmentObject
     var parameter: String = ""
     var view: SxNodeView?
@@ -38,7 +38,7 @@ struct SxModifier_rotateDegrees: SxCustomModifierProtocol {
     }
         
     static func getModifier<Content: View>(content: Content, parameter: String, view: SxNodeView?) -> AnyView {
-        AnyView(content.modifier(SxModifier_rotateDegrees(parameter: parameter, view: view)))
+        AnyView(content.modifier(Modifier_rotateDegrees(parameter: parameter, view: view)))
     }
 }
 ```
@@ -46,7 +46,7 @@ struct SxModifier_rotateDegrees: SxCustomModifierProtocol {
 Install your modifier by calling:
 
 ```swift
-SxMagicUiView.installModifierPlugin(name: "rotateDegrees", plugin: SxModifier_rotateDegrees.self)
+MagicUiView.installModifierPlugin(name: "rotateDegrees", plugin: Modifier_rotateDegrees.self)
 ```
 
 When modifier is installed you can apply it anywhere by calling it's attribute in xml:
