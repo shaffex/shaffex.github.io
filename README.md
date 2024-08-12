@@ -67,14 +67,14 @@ Unlike many XML parsers, our solution maintains the order of attributes in XML e
 
 ### Step 1: Add Swift Package and import Magic UI framework
 
-To start using Magic UI in your Swift project, the first step is to add Swift Package and import the MagicUiFramework. This framework provides all the necessary classes and methods to create and render dynamic UI components based on XML.
+To start using Magic UI in your Swift project, the first step is to add Swift Package and import the `MagicUiFramework`. This framework provides all the necessary classes and methods to create and render dynamic UI components based on XML.
 
 
 #### Add this Swift Package:
 ```
 https://gitlab.com/magicui/magicui-framework-beta.git (will be updated)
 ```
-#### Import 'MagicUiFramework' into your SwiftUI file:
+#### Import `MagicUiFramework` into your SwiftUI file:
 ```swift
 import MagicUiFramework
 ```
@@ -96,6 +96,7 @@ If your XML data is embedded within your app's resources (e.g., within your Xcod
 ```swift
 MagicUiView(resource: "MainScreen")
 ```
+> **Note:** Yor resource file must have an extension `xml` so it will be stored in your resources like `MainScreen.xml`
 
 #### Option 3: Initialize with a File Path
 You can also load an XML file from a specific path within the app's file system. The root is app's Documents folder
@@ -120,7 +121,6 @@ Here's a complete example of how to render a Magic UI view from an XML string wi
 ```swift
 import SwiftUI
 import MagicUiFramework
-
 
 struct ContentView: View {
     var body: some View {
