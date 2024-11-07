@@ -2,7 +2,7 @@
 <details markdown="block">
 <summary>playSystemSound</summary><br>
 
-**playSystemSound**
+**playSystemSound** YES IDZE!!!
 
 
 
@@ -12,7 +12,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/playSystemSound-0.png?ts=1730849674.078329" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/playSystemSound-0.png?ts=1730939132.788161" alt="Example" width="250"/>
 
 ---
 
@@ -103,7 +103,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/setAudioSession-0.png?ts=1730849674.078382" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/setAudioSession-0.png?ts=1730939132.7882218" alt="Example" width="250"/>
 
 ---
 
@@ -119,7 +119,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/setAudioSession-1.png?ts=1730849674.078387" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/setAudioSession-1.png?ts=1730939132.7882261" alt="Example" width="250"/>
 
 ---
 
@@ -137,7 +137,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/requestAuthorizationForNotifications-0.png?ts=1730849674.078404" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/requestAuthorizationForNotifications-0.png?ts=1730939132.788235" alt="Example" width="250"/>
 
 ---
 
@@ -158,7 +158,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/requestAuthorizationForNotifications-1.png?ts=1730849674.078409" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/requestAuthorizationForNotifications-1.png?ts=1730939132.788239" alt="Example" width="250"/>
 
 ---
 
@@ -192,7 +192,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/scheduleLocalNotification-0.png?ts=1730849674.078426" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/scheduleLocalNotification-0.png?ts=1730939132.788259" alt="Example" width="250"/>
 
 ---
 
@@ -210,7 +210,7 @@
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/cancelAllPendingNotifications-0.png?ts=1730849674.07844" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/cancelAllPendingNotifications-0.png?ts=1730939132.7882671" alt="Example" width="250"/>
 
 ---
 
