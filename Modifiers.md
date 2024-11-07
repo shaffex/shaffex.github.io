@@ -52,7 +52,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/colorInvert-0.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/colorInvert-0.png?ts=1730938832.6169991" alt="Example" width="250"/>
 
 ---
 
@@ -97,7 +97,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-0.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-0.png?ts=1730938832.6170092" alt="Example" width="250"/>
 
 ---
 *Font and colors*
@@ -115,7 +115,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-1.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-1.png?ts=1730938832.617011" alt="Example" width="250"/>
 
 ---
 *System font with size and weight*
@@ -135,7 +135,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-2.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-2.png?ts=1730938832.617013" alt="Example" width="250"/>
 
 ---
 *Custom font and size*
@@ -157,7 +157,29 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://shaffex.com/MagicUiDemo/Help/GitHubAssets/font-3.png" alt="KOKOCE ALT" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-3.png?ts=1730938832.617015" alt="Example" width="250"/>
+
+---
+
+</details>
+
+## Navigation Bar
+<details markdown="block">
+<summary>navigationTitle</summary><br>
+
+kokoce navigationTitle is a container that overlays its children, aligning them in both axes.
+
+
+
+```xml
+<body>
+<navigationstack>
+	<text navigationTitle="My title">Hello</text>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-0.png?ts=1730938832.617022" alt="Example" width="250"/>
 
 ---
 
