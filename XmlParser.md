@@ -11,7 +11,7 @@ This will be help for XML parser
 ```xml
 <body>
 <!-- This is a comment which will be ignored by parser -->
-	<text>Hello piknova MagicUI!</text>
+  <text>Hello JANA MagicUI!</text>
 <!-- This is another comment which will be ignored by parser -->
 </body>
 ```
@@ -31,7 +31,7 @@ This will be help for XML parser
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-1.png?ts=1731104517.7958999" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-1.png?ts=1731104750.529881" alt="Example" width="250"/>
 
 ---
 *How to use cdata section to use special characters in xml*
@@ -42,7 +42,7 @@ This will be help for XML parser
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-2.png?ts=1731104517.795918" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-2.png?ts=1731104750.529887" alt="Example" width="250"/>
 
 ---
 *XML attributes are processed in order because in SwiftUI, the order of modifiers applied to a view is significant. SwiftUI processes these modifiers in sequence, affecting the final appearance and behavior of the view.*
@@ -56,7 +56,7 @@ This will be help for XML parser
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-3.png?ts=1731104517.795922" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/xmlparser-3.png?ts=1731104750.529896" alt="Example" width="250"/>
 
 ---
 
