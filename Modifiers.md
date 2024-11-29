@@ -52,7 +52,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/colorInvert-0.png?ts=1730938832.6169991" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/colorInvert-0.png?ts=1732922180.158712" alt="Example" width="250"/>
 
 ---
 
@@ -97,7 +97,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-0.png?ts=1730938832.6170092" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-0.png?ts=1732922180.158822" alt="Example" width="250"/>
 
 ---
 *Font and colors*
@@ -115,7 +115,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-1.png?ts=1730938832.617011" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-1.png?ts=1732922180.158828" alt="Example" width="250"/>
 
 ---
 *System font with size and weight*
@@ -135,7 +135,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-2.png?ts=1730938832.617013" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-2.png?ts=1732922180.158833" alt="Example" width="250"/>
 
 ---
 *Custom font and size*
@@ -157,7 +157,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-3.png?ts=1730938832.617015" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-3.png?ts=1732922180.158836" alt="Example" width="250"/>
 
 ---
 
@@ -167,19 +167,80 @@ ZStack is a container that overlays its children, aligning them in both axes.
 <details markdown="block">
 <summary>navigationTitle</summary><br>
 
-kokoce navigationTitle is a container that overlays its children, aligning them in both axes.
+**navigationTitle** is a modifier that sets the title of the navigation bar for the current view. This title represents the current navigation state and is displayed prominently in the navigation interface.
 
+Parameters:
+- **title**: A string that specifies the title to display in the navigation bar.
+
+***Parameters:***
+
+`title`  The text displayed as the navigation bar's title.
+
+`displayMode` (optional)  Determines the style of the navigation bar title. It can take the following values:
+* `automatic`  Adopts the previous view's display mode.
+* `inline`  Displays a smaller, inline title suitable for secondary views.
+* `large`  Shows a larger, more prominent title, typically used for top-level views.
+
+> **Default value:** automatic
+
+## Examples
+
+*Setting a navigation title*
+
+```xml
+```swift
+NavigationView {
+    Text("Content")
+        .navigationTitle("My Title")
+}
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-0.png?ts=1732922180.1597152" alt="Example" width="250"/>
+
+---
 
 
 ```xml
 <body>
 <navigationstack>
-	<text navigationTitle="My title">Hello</text>
+	<text navigationTitle="My title">Content</text>
 </navigationstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-0.png?ts=1730938832.617022" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-1.png?ts=1732922180.159719" alt="Example" width="250"/>
+
+---
+
+
+```xml
+<body>
+<navigationstack>
+	<zstack navigationTitleDisplayMode="inline" navigationTitle="Inline navigation title">
+	<color xignoresSafeArea="">green</color>
+	<text font="largeTitle">Content</text>
+	</zstack>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-2.png?ts=1732922180.159724" alt="Example" width="250"/>
+
+---
+
+
+```xml
+<body>
+<navigationstack>
+	<zstack navigationTitleDisplayMode="large" navigationTitle="Large navigation title">
+	<color xignoresSafeArea="">green</color>
+	<text font="largeTitle">Content</text>
+	</zstack>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-3.png?ts=1732922180.1597261" alt="Example" width="250"/>
 
 ---
 
