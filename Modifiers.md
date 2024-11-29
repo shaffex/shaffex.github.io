@@ -52,7 +52,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/colorInvert-0.png?ts=1732922180.158712" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/colorInvert-0.png?ts=1732922861.005959" alt="Example" width="250"/>
 
 ---
 
@@ -97,7 +97,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-0.png?ts=1732922180.158822" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-0.png?ts=1732922861.005986" alt="Example" width="250"/>
 
 ---
 *Font and colors*
@@ -115,7 +115,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-1.png?ts=1732922180.158828" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-1.png?ts=1732922861.00599" alt="Example" width="250"/>
 
 ---
 *System font with size and weight*
@@ -135,7 +135,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-2.png?ts=1732922180.158833" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-2.png?ts=1732922861.0059938" alt="Example" width="250"/>
 
 ---
 *Custom font and size*
@@ -157,7 +157,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/font-3.png?ts=1732922180.158836" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/font-3.png?ts=1732922861.005997" alt="Example" width="250"/>
 
 ---
 
@@ -185,19 +185,6 @@ Parameters:
 
 ## Examples
 
-*Setting a navigation title*
-
-```xml
-```swift
-NavigationView {
-    Text("Content")
-        .navigationTitle("My Title")
-}
-```
-
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-0.png?ts=1732922180.1597152" alt="Example" width="250"/>
-
----
 
 
 ```xml
@@ -208,7 +195,7 @@ NavigationView {
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-1.png?ts=1732922180.159719" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-0.png?ts=1732922861.00907" alt="Example" width="250"/>
 
 ---
 
@@ -224,7 +211,7 @@ NavigationView {
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-2.png?ts=1732922180.159724" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-1.png?ts=1732922861.0090752" alt="Example" width="250"/>
 
 ---
 
@@ -240,7 +227,76 @@ NavigationView {
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-3.png?ts=1732922180.1597261" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationTitle-2.png?ts=1732922861.009077" alt="Example" width="250"/>
+
+---
+
+</details>
+<details markdown="block">
+<summary>navigationBarTitleDisplayMode</summary><br>
+
+**navigationBarTitleDisplayMode** is a modifier that configures the display style of the navigation bar title for the current view. It determines how the title appears within the navigation interface.
+
+Parameters:
+- **displayMode** (optional): Specifies the style of the navigation bar title. Possible values include:
+  - **automatic**: Inherits the display mode from the previous navigation item.
+  - **inline**: Displays a smaller, inline title suitable for secondary views.
+  - **large**: Shows a larger, more prominent title, typically used for top-level views.
+
+***Parameters:***
+
+`displayMode` (optional) Specifies the style of the navigation bar title.
+* `automatic` Inherits the display mode from the previous navigation item.
+* `inline` Displays a smaller, inline title suitable for secondary views.
+* `large` Shows a larger, more prominent title, typically used for top-level views.
+
+> **Default value:** automatic
+
+## Examples
+
+
+
+```xml
+<body>
+<navigationstack>
+	<text navigationTitle="My title">Default display mode is auto</text>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationBarTitleDisplayMode-0.png?ts=1732922861.0117989" alt="Example" width="250"/>
+
+---
+
+
+```xml
+<body>
+<navigationstack>
+	<zstack navigationTitleDisplayMode="inline" navigationTitle="Inline navigation title">
+	<color xignoresSafeArea="">green</color>
+	<text>navigationTitleDisplayMode="inline"</text>
+	</zstack>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationBarTitleDisplayMode-1.png?ts=1732922861.011804" alt="Example" width="250"/>
+
+---
+
+
+```xml
+<body>
+<navigationstack>
+	<zstack navigationTitleDisplayMode="large" navigationTitle="Large navigation title">
+	<color xignoresSafeArea="">green</color>
+	<text>navigationTitleDisplayMode="large"</text>
+	</zstack>
+</navigationstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationBarTitleDisplayMode-2.png?ts=1732922861.011808" alt="Example" width="250"/>
 
 ---
 
