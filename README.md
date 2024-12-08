@@ -103,3 +103,10 @@ struct ContentView: View {
 ### Actions
 * [Supported Action](./Actions.md)
 * [How to create action plugin](./PluginActions.md)
+
+### Events
+* [Supported Events](./Events.md)
+* [How to create event plugin](./PluginEvents.md)
+
+### Data Models
+* [How to use Data Models](./DataModels.md)
