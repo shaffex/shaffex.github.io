@@ -1,5 +1,9 @@
 # MagicUI
 
+
+Note: Help in progress ... if any questions please contact shaffex at support com
+
+
 Welcome to **MagicUI**, a revolutionary user interface framework designed with performance and flexibility in mind. 
 
 ## Ultra Lightweight
