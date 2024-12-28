@@ -32,7 +32,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-0.png?ts=1730938167.625293" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-0.png?ts=1735420536.524925" alt="Example" width="250"/>
 
 ---
 *123*
@@ -43,7 +43,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-1.png?ts=1730938167.625299" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-1.png?ts=1735420536.52493" alt="Example" width="250"/>
 
 ---
 *Button with custom view*
@@ -67,7 +67,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-2.png?ts=1730938167.6253018" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-2.png?ts=1735420536.524932" alt="Example" width="250"/>
 
 ---
 *Button with role*
@@ -88,7 +88,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-3.png?ts=1730938167.6253052" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-3.png?ts=1735420536.524934" alt="Example" width="250"/>
 
 ---
 *Alert with cancel and destructive buttons*
@@ -105,7 +105,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-4.png?ts=1730938167.625308" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-4.png?ts=1735420536.5249372" alt="Example" width="250"/>
 
 ---
 *Button with buttonStyle*
@@ -122,7 +122,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-5.png?ts=1730938167.6253119" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/button-5.png?ts=1735420536.524939" alt="Example" width="250"/>
 
 ---
 
@@ -143,7 +143,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/datepicker-0.png?ts=1730938167.625325" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/datepicker-0.png?ts=1735420536.5249481" alt="Example" width="250"/>
 
 ---
 
@@ -179,7 +179,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-0.png?ts=1730938167.629972" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/form-0.png?ts=1735420536.529705" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -196,7 +196,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-1.png?ts=1730938167.6299791" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/form-1.png?ts=1735420536.5297089" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -213,7 +213,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-2.png?ts=1730938167.629982" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/form-2.png?ts=1735420536.52971" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -240,7 +240,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-3.png?ts=1730938167.630007" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/form-3.png?ts=1735420536.5297132" alt="Example" width="250"/>
 
 ---
 
@@ -271,7 +271,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/label-0.png?ts=1730938167.630029" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/label-0.png?ts=1735420536.5297241" alt="Example" width="250"/>
 
 ---
 *Label with labelStyle*
@@ -306,7 +306,7 @@ datepicker is a container that stacks its children vertically.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/label-1.png?ts=1730938167.630035" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/label-1.png?ts=1735420536.529727" alt="Example" width="250"/>
 
 ---
 
@@ -324,7 +324,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/link-0.png?ts=1730938167.630054" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/link-0.png?ts=1735420536.5297341" alt="Example" width="250"/>
 
 ---
 
@@ -360,7 +360,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/list-0.png?ts=1730938167.632053" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/list-0.png?ts=1735420536.530618" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -377,7 +377,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/list-1.png?ts=1730938167.6320581" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/list-1.png?ts=1735420536.53062" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -394,7 +394,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/list-2.png?ts=1730938167.632062" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/list-2.png?ts=1735420536.530621" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -421,7 +421,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/list-3.png?ts=1730938167.632067" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/list-3.png?ts=1735420536.530623" alt="Example" width="250"/>
 
 ---
 
@@ -457,7 +457,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/menu-0.png?ts=1730938167.636107" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/menu-0.png?ts=1735420536.5310202" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -474,7 +474,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/menu-1.png?ts=1730938167.636156" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/menu-1.png?ts=1735420536.531022" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -491,7 +491,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/menu-2.png?ts=1730938167.636162" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/menu-2.png?ts=1735420536.531023" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -518,7 +518,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/menu-3.png?ts=1730938167.636169" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/menu-3.png?ts=1735420536.531024" alt="Example" width="250"/>
 
 ---
 
@@ -554,7 +554,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-0.png?ts=1730938167.636323" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-0.png?ts=1735420536.531373" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -571,7 +571,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-1.png?ts=1730938167.636328" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-1.png?ts=1735420536.5313768" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -588,7 +588,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-2.png?ts=1730938167.636331" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-2.png?ts=1735420536.531379" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -615,7 +615,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-3.png?ts=1730938167.6363358" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-3.png?ts=1735420536.5313811" alt="Example" width="250"/>
 
 ---
 
@@ -651,7 +651,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-0.png?ts=1730938167.636479" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-0.png?ts=1735420536.531726" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -668,7 +668,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-1.png?ts=1730938167.636485" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-1.png?ts=1735420536.531728" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -685,7 +685,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-2.png?ts=1730938167.636488" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-2.png?ts=1735420536.531729" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -712,7 +712,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-3.png?ts=1730938167.636493" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationstack-3.png?ts=1735420536.5317302" alt="Example" width="250"/>
 
 ---
 
@@ -748,7 +748,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-0.png?ts=1730938167.636622" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-0.png?ts=1735420536.532493" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -765,7 +765,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-1.png?ts=1730938167.636627" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-1.png?ts=1735420536.532495" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -782,7 +782,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-2.png?ts=1730938167.636631" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-2.png?ts=1735420536.532497" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -809,7 +809,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-3.png?ts=1730938167.6366348" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/navigationview-3.png?ts=1735420536.532498" alt="Example" width="250"/>
 
 ---
 
@@ -879,7 +879,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/picker-0.png?ts=1730938167.636654" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/picker-0.png?ts=1735420536.532505" alt="Example" width="250"/>
 
 ---
 
@@ -915,7 +915,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/picker-1.png?ts=1730938167.636658" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/picker-1.png?ts=1735420536.532507" alt="Example" width="250"/>
 
 ---
 
@@ -951,7 +951,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/slider-0.png?ts=1730938167.636698" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/slider-0.png?ts=1735420536.53285" alt="Example" width="250"/>
 
 ---
 *grouped List*
@@ -968,7 +968,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/slider-1.png?ts=1730938167.636703" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/slider-1.png?ts=1735420536.5328522" alt="Example" width="250"/>
 
 ---
 *insetGrouped List*
@@ -985,7 +985,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/slider-2.png?ts=1730938167.6367059" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/slider-2.png?ts=1735420536.5328531" alt="Example" width="250"/>
 
 ---
 *List with sections*
@@ -1012,7 +1012,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/slider-3.png?ts=1730938167.6367102" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/slider-3.png?ts=1735420536.532855" alt="Example" width="250"/>
 
 ---
 
@@ -1020,17 +1020,11 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 <details markdown="block">
 <summary>stepper</summary><br>
 
-**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+**Stepper** is a control that allows users to increment or decrement a value by tapping on a plus or minus button. It is commonly used for adjusting numerical values in a user interface.
 
 ***Parameters:***
 
-`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
-* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
-* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
-* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
-* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
-* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
-* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+`range` (optional) Check code example for range values.
 
 > **Default value:** `automatic`
 
@@ -1038,78 +1032,23 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 
 ```xml
 <body>
-  <list>
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
-</body>
-```
-
-<img src="https://magic-ui.com/Help/GitHubAssets/stepper-0.png?ts=1730938167.6368" alt="Example" width="250"/>
-
----
-*grouped List*
-
-```xml
-<body>
-  <list listStyle="grouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
-</body>
-```
-
-<img src="https://magic-ui.com/Help/GitHubAssets/stepper-1.png?ts=1730938167.636808" alt="Example" width="250"/>
-
----
-*insetGrouped List*
-
-```xml
-<body>
-  <list listStyle="insetGrouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
-</body>
-```
-
-<img src="https://magic-ui.com/Help/GitHubAssets/stepper-2.png?ts=1730938167.636812" alt="Example" width="250"/>
-
----
-*List with sections*
-
-```xml
-<body>
-  <list>
-  	<section header="Section 1 Header" footer="Section 1 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
+  <form>
+    <section header="Default: Value=$myStepper" footer="Default is int and 0-1">
+    <stepper key="myStepper" value="1">Default Stepper</stepper>
     </section>
-    
-    <section header="Section 2 Header" footer="Section 2 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
+
+    <section header="Int: Value=$myStepperInt" footer='range="from:1;to:5;type:int"'>
+    <stepper key="myStepperInt" value="3" range="from:1;to:5;type:int">Int Stepper</stepper>
     </section>
-  </list>
+
+    <section header="Double: Value=$myStepperDouble" footer='range="from:0;to:10;step:0.5;type:double"'>
+    <stepper key="myStepperDouble" value="3" range="from:0;to:10;step:0.5;type:double">Double Stepper</stepper>
+    </section>
+  </form>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/stepper-3.png?ts=1730938167.636818" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/stepper-0.png?ts=1735420536.533153" alt="Example" width="250"/>
 
 ---
 
@@ -1130,7 +1069,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/toggle-0.png?ts=1730938167.636839" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/toggle-0.png?ts=1735420536.533162" alt="Example" width="250"/>
 
 ---
 
@@ -1168,7 +1107,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/vstack-0.png?ts=1730938167.637226" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-0.png?ts=1735420536.5334969" alt="Example" width="250"/>
 
 ---
 *With no spacing*
@@ -1183,7 +1122,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/vstack-1.png?ts=1730938167.6372352" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-1.png?ts=1735420536.533499" alt="Example" width="250"/>
 
 ---
 *Combined with hstack*
@@ -1202,7 +1141,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/vstack-2.png?ts=1730938167.6372418" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-2.png?ts=1735420536.5335011" alt="Example" width="250"/>
 
 ---
 *Combined with hstack*
@@ -1219,7 +1158,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/vstack-3.png?ts=1730938167.637248" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-3.png?ts=1735420536.533502" alt="Example" width="250"/>
 
 ---
 
@@ -1257,7 +1196,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-0.png?ts=1730938167.637423" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/hstack-0.png?ts=1735420536.533927" alt="Example" width="250"/>
 
 ---
 
@@ -1272,7 +1211,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-1.png?ts=1730938167.637429" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/hstack-1.png?ts=1735420536.5339289" alt="Example" width="250"/>
 
 ---
 *Example with various spacings*
@@ -1306,7 +1245,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-2.png?ts=1730938167.637436" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/hstack-2.png?ts=1735420536.533931" alt="Example" width="250"/>
 
 ---
 *Example with various alignments*
@@ -1340,7 +1279,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-3.png?ts=1730938167.637444" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/hstack-3.png?ts=1735420536.533934" alt="Example" width="250"/>
 
 ---
 
@@ -1378,7 +1317,7 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/zstack-0.png?ts=1730938167.637511" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/zstack-0.png?ts=1735420536.534853" alt="Example" width="250"/>
 
 ---
 
@@ -1447,7 +1386,7 @@ LinearGradient in SwiftUI is a view that creates a linear gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/lineargradient-0.png?ts=1730938167.637947" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/lineargradient-0.png?ts=1735420536.535599" alt="Example" width="250"/>
 
 ---
 
@@ -1470,7 +1409,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/radialgradient-0.png?ts=1730938167.6379771" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/radialgradient-0.png?ts=1735420536.535608" alt="Example" width="250"/>
 
 ---
 
@@ -1501,7 +1440,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-0.png?ts=1730938167.6381931" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-0.png?ts=1735420536.5361152" alt="Example" width="250"/>
 
 ---
 *If no systemImage provided*
@@ -1513,7 +1452,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-1.png?ts=1730938167.6382" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-1.png?ts=1735420536.536117" alt="Example" width="250"/>
 
 ---
 
@@ -1535,7 +1474,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/scrollingtext-0.png?ts=1730938167.638225" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/scrollingtext-0.png?ts=1735420536.536124" alt="Example" width="250"/>
 
 ---
 
@@ -1553,7 +1492,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/webview-0.png?ts=1730938167.638269" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/webview-0.png?ts=1735420536.536129" alt="Example" width="250"/>
 
 ---
 
@@ -1571,7 +1510,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/videoview-0.png?ts=1730938167.638313" alt="Example" width="250"/>
+<img src="https://magic-ui.com/Help/GitHubAssets/videoview-0.png?ts=1735420536.536135" alt="Example" width="250"/>
 
 ---
 
