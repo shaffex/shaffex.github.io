@@ -12,20 +12,11 @@ To create a custom modifier plugin, you need to conform to the `CustomModifierPl
 The flipX plugin horizontally flips the content.
 
 ```swift
-import SwiftUI
-import MagicUiFramework
-
-struct Modifier_flipX: CustomModifierPlugin {
-    @EnvironmentObject var sxEnv: SxEnvironmentObject
-    var parameter: String = ""
-    var view: SxNodeView?
+struct SxModifier_flipX: SxModifierProtocol {
+    @DynamicNode var node: MagicNode
     
     func body(content: Content) -> some View {
         content.scaleEffect(x: -1, y: 1, anchor: .center)
-    }
-        
-    static func getModifier<Content: View>(content: Content, parameter: String, view: SxNodeView?) -> AnyView {
-        AnyView(content.modifier(Modifier_flipX(parameter: parameter, view: view)))
     }
 }
 ```
@@ -50,18 +41,12 @@ Once a modifier plugin is installed, you can apply it to any view within your XM
 ### Example 2: `rotateDegrees` Modifier Plugin
 
 ```swift
-struct Modifier_rotateDegrees: CustomModifierPlugin {
-    @EnvironmentObject var sxEnv: SxEnvironmentObject
-    var parameter: String = ""
-    var view: SxNodeView?
+struct SxModifier_rotateDegrees: SxModifierProtocol {
+    @DynamicNode var node: MagicNode
     
     func body(content: Content) -> some View {
         content
-            .rotationEffect(.degrees(parameter.convertToDouble() ?? 0.0), anchor: .center)
-    }
-        
-    static func getModifier<Content: View>(content: Content, parameter: String, view: SxNodeView?) -> AnyView {
-        AnyView(content.modifier(Modifier_rotateDegrees(parameter: parameter, view: view)))
+            .rotationEffect(.degrees(node.convertToDouble() ?? 0.0), anchor: .center)
     }
 }
 ```
