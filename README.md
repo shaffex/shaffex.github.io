@@ -6,6 +6,29 @@ Note: Help in progress ... if any questions please contact shaffex at support co
 
 Welcome to **MagicUI**, a revolutionary user interface framework designed with performance and flexibility in mind. 
 
+## Platform Support
+
+MagicUI is fully compatible with all Apple platforms:
+- iOS
+- macOS
+- tvOS
+- watchOS
+- visionOS
+
+This universal compatibility ensures you can use the same framework across your entire Apple ecosystem.
+
+## Versatile Usage
+
+MagicUI can be implemented anywhere SwiftUI is supported, making it perfect for:
+- Local UI components
+- Remote dynamic interfaces
+- Widgets and complications
+- Live Activities
+- App Intents
+- App Clips
+- Watch complications
+- Vision apps
+
 ## Ultra Lightweight
 
 MagicUI is incredibly lightweight. We've stripped it down to the essentials, making it a perfect choice for projects where every kilobyte counts.
