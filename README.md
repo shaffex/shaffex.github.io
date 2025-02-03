@@ -63,7 +63,7 @@ MagicUiView(resource: "MainScreen")
 You can also load an XML file from a specific path within the app's file system. The root is app's Documents folder
 
 ```swift
-MagicUiView(file: "MYView.xml")
+MagicUiView(file: "MyView.xml")
 ```
 
 #### Option 4: Initialize with a URL
