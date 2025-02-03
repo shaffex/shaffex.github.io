@@ -73,6 +73,21 @@ If your XML content is hosted remotely, you can load it directly from a URL. Mag
 MagicUiView(url: "https://example.com/myView.xml")
 ```
 
+#### Option 5: Initialize with URL and Caching
+If your XML content is hosted remotely, you can load it directly from a URL while enabling offline access. Magic UI will fetch the content and cache it locally for future use, allowing your app to work even without an internet connection.
+
+```swift
+// Load from URL with automatic caching
+MagicUiView(urlCache: "https://example.com/myView.xml")
+```
+
+The cached content will be used when:
+- The device is offline
+- The remote content is unavailable
+- Loading the remote content fails
+
+This ensures your app remains functional regardless of network connectivity.
+
 #### Step 3: There is No Step 3! It's That Simple.
 Once you've chosen and implemented your data source, Magic UI takes care of rendering the view for you. No additional steps are required. Your UI is now ready to be displayed with minimal setup.
 
@@ -105,7 +120,7 @@ struct ContentView: View {
 * [How to create modifier plugin](./PluginModifiers.md)
 
 ### Actions
-* [Supported Action](./Actions.md)
+* [Supported Actions](./Actions.md)
 * [How to create action plugin](./PluginActions.md)
 
 ### Events
