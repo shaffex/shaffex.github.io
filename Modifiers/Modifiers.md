@@ -1,13 +1,10 @@
-# All Modifiers
-
-## Animation
-- [animation](./animation.md)
+# Supported Modifiers
 
 ## Controls
 - [actionSheet](./Controls/actionSheet.md)
 - [alert](./Controls/alert.md)
 - [controlSize](./controlSize.md)
-- [dialog](./dialog.md)
+- [dialog](.Controls/dialog.md)
 - [fullScreenCover](./Controls/fullScreenCover.md)
 - [sheet](./Controls/sheet.md)
 - [tabItem](./Controls/tabItem.md)
@@ -23,7 +20,7 @@
 - [overlay2](./Custom/overlay2.md)
 
 ## Effects
-- [backgroundMaterial](./backgroundMaterial.md)
+- [backgroundMaterial](.Effects/backgroundMaterial.md)
 - [blendMode](./Effects/blendMode.md)
 - [border](./Effects/border.md)
 - [clipShape](./Effects/clipShape.md)
@@ -53,6 +50,7 @@
 - [navigationTitleDisplayMode](./NavigationBar/navigationTitleDisplayMode.md)
 
 ## Other
+- [animation](./Other/animation.md)
 - [scrollTargetBehavior](./Other/scrollTargetBehavior.md)
 - [scrollTransition](./Other/scrollTransition.md)
 - [transition](./Other/transition.md)
