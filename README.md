@@ -155,7 +155,7 @@ struct ContentView: View {
 * [How to create view plugin](./PluginViews.md)
 
 ### Modifiers
-* [Supported Modifiers](./Modifiers.md)
+* [Supported Modifiers](Modifiers/Modifiers.md)
 * [How to create modifier plugin](./PluginModifiers.md)
 
 ### Actions
