@@ -3,8 +3,8 @@
 ## Controls
 - [actionSheet](./Controls/actionSheet.md)
 - [alert](./Controls/alert.md)
-- [controlSize](./controlSize.md)
-- [dialog](.Controls/dialog.md)
+- [controlSize](./Controls/controlSize.md)
+- [dialog](./Controls/dialog.md)
 - [fullScreenCover](./Controls/fullScreenCover.md)
 - [sheet](./Controls/sheet.md)
 - [tabItem](./Controls/tabItem.md)
