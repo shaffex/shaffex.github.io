@@ -51,6 +51,7 @@
 - [rotationEffect](./Effects/rotationEffect.md)
 - [scaleEffect](./Effects/scaleEffect.md)
 - [shadow](./Effects/shadow.md)
+- [tint](./Effects/tint.md)
 
 ## Events
 - [onAppear](./Events/onAppear.md)
@@ -116,7 +117,7 @@
 
 ## SwiftUi Unknown Category
 - [scrollTargetBehavior](./Other/scrollTargetBehavior.md)
-- [scrollTargetLayout](./Layout/scrollTargetLayout.md)
+- [scrollTargetLayout](./SwiftUi Unknown Category/scrollTargetLayout.md)
 
 ## Text
 - [autocapitalization](./Text/autocapitalization.md)
