@@ -1,65 +1,65 @@
 # All Modifiers
 
 ## Animation
-- [Animation](Modifiers/animation.md)
+- [Animation](./animation.md)
 
 ## Controls
-- [Action Sheet](Modifiers/Controls/actionSheet.md)
-- [Alert](Modifiers/Controls/alert.md)
-- [Control Size](Modifiers/controlSize.md)
-- [Dialog](Modifiers/dialog.md)
-- [Full Screen Cover](Modifiers/Controls/fullScreenCover.md)
-- [Sheet](Modifiers/Controls/sheet.md)
-- [Tab Item](Modifiers/Controls/tabItem.md)
+- [Action Sheet](./Controls/actionSheet.md)
+- [Alert](./Controls/alert.md)
+- [Control Size](./controlSize.md)
+- [Dialog](./dialog.md)
+- [Full Screen Cover](./Controls/fullScreenCover.md)
+- [Sheet](./Controls/sheet.md)
+- [Tab Item](./Controls/tabItem.md)
 
 ## Custom
-- [Animation Offset](Modifiers/Custom/animationOffset.md)
-- [Animation Opacity](Modifiers/Custom/animationOpacity.md)
-- [Animation Rotation](Modifiers/Custom/animationRotation.md)
-- [Animation Scale](Modifiers/Custom/animationScale.md)
-- [If](Modifiers/Custom/if.md)
-- [If Not](Modifiers/Custom/ifnot.md)
-- [Navigation Listener](Modifiers/Custom/navigationListener.md)
-- [Overlay 2](Modifiers/Custom/overlay2.md)
+- [Animation Offset](./Custom/animationOffset.md)
+- [Animation Opacity](./Custom/animationOpacity.md)
+- [Animation Rotation](./Custom/animationRotation.md)
+- [Animation Scale](./Custom/animationScale.md)
+- [If](./Custom/if.md)
+- [If Not](./Custom/ifnot.md)
+- [Navigation Listener](./Custom/navigationListener.md)
+- [Overlay 2](./Custom/overlay2.md)
 
 ## Effects
-- [Background Material](Modifiers/backgroundMaterial.md)
-- [Blend Mode](Modifiers/Effects/blendMode.md)
-- [Border](Modifiers/Effects/border.md)
-- [Clip Shape](Modifiers/Effects/clipShape.md)
-- [Color Invert](Modifiers/Effects/colorInvert.md)
-- [Foreground Style](Modifiers/Effects/foregroundStyle.md)
-- [Rotation Effect](Modifiers/Effects/rotationEffect.md)
-- [Shadow](Modifiers/Effects/shadow.md)
+- [Background Material](./backgroundMaterial.md)
+- [Blend Mode](./Effects/blendMode.md)
+- [Border](./Effects/border.md)
+- [Clip Shape](./Effects/clipShape.md)
+- [Color Invert](./Effects/colorInvert.md)
+- [Foreground Style](./Effects/foregroundStyle.md)
+- [Rotation Effect](./Effects/rotationEffect.md)
+- [Shadow](./Effects/shadow.md)
 
 ## Events
-- [On Tap Gesture](Modifiers/Events/onTapGesture.md)
+- [On Tap Gesture](./Events/onTapGesture.md)
 
 ## Layout
-- [Aspect Ratio](Modifiers/Layout/aspectRatio.md)
-- [Frame](Modifiers/Layout/frame.md)
-- [Ignores Safe Area](Modifiers/Layout/ignoresSafeArea.md)
-- [Offset](Modifiers/Layout/offset.md)
-- [Padding](Modifiers/Layout/padding.md)
-- [Position](Modifiers/Layout/position.md)
-- [Presentation Detents](Modifiers/Layout/presentationDetents.md)
+- [Aspect Ratio](./Layout/aspectRatio.md)
+- [Frame](./Layout/frame.md)
+- [Ignores Safe Area](./Layout/ignoresSafeArea.md)
+- [Offset](./Layout/offset.md)
+- [Padding](./Layout/padding.md)
+- [Position](./Layout/position.md)
+- [Presentation Detents](./Layout/presentationDetents.md)
 
 ## NavigationBar
-- [Navigation Bar Hidden](Modifiers/NavigationBar/navigationBarHidden.md)
-- [Navigation Title](Modifiers/NavigationBar/navigationTitle.md)
-- [Navigation Title Display Mode](Modifiers/NavigationBar/navigationTitleDisplayMode.md)
+- [Navigation Bar Hidden](./NavigationBar/navigationBarHidden.md)
+- [Navigation Title](./NavigationBar/navigationTitle.md)
+- [Navigation Title Display Mode](./NavigationBar/navigationTitleDisplayMode.md)
 
 ## Other
-- [Scroll Target Behavior](Modifiers/Other/scrollTargetBehavior.md)
-- [Scroll Transition](Modifiers/Other/scrollTransition.md)
-- [Transition](Modifiers/Other/transition.md)
+- [Scroll Target Behavior](./Other/scrollTargetBehavior.md)
+- [Scroll Transition](./Other/scrollTransition.md)
+- [Transition](./Other/transition.md)
 
 ## Style
-- [Button Style](Modifiers/Style/buttonStyle.md)
-- [Label Style](Modifiers/Style/labelStyle.md)
-- [Tab View Style](Modifiers/Style/tabViewStyle.md)
+- [Button Style](./Style/buttonStyle.md)
+- [Label Style](./Style/labelStyle.md)
+- [Tab View Style](./Style/tabViewStyle.md)
 
 ## Text
-- [Autocapitalization](Modifiers/Text/autocapitalization.md)
-- [Font](Modifiers/Text/font.md)
-- [Line Limit](Modifiers/Text/lineLimit.md)
+- [Autocapitalization](./Text/autocapitalization.md)
+- [Font](./Text/font.md)
+- [Line Limit](./Text/lineLimit.md)
