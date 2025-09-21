@@ -12,7 +12,7 @@ To create a custom modifier plugin, implement the `SxModifierProtocol` protocol.
 This plugin horizontally flips a view's content.
 
 ```swift
-struct SxModifier_flipX: SxModifierProtocol {
+struct Modifier_flipX: SxModifierProtocol {
     @DynamicNode var node: MagicNode
     
     func body(content: Content) -> some View {
@@ -43,7 +43,7 @@ After installation, apply the modifier to any view in your XML layout using its 
 This plugin rotates a view by a specified number of degrees.
 
 ```swift
-struct SxModifier_rotateDegrees: SxModifierProtocol {
+struct Modifier_rotateDegrees: SxModifierProtocol {
     @DynamicNode var node: MagicNode
     
     func body(content: Content) -> some View {
