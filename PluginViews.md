@@ -38,7 +38,64 @@ You can now use your custom view in XML:
 <textwithsubtitle title="Hello" subtitle="MagicUI"/>
 ```
 
-## Option 2: Using SwiftUI Views
+## Option 2: View with MagicNode, custom attributes and @State variables
+
+Use this when your view needs local mutable state (e.g., counters, toggles) managed by SwiftUI.
+Because the view uses @State and @DynamicNode, you must provide a custom initializer that accepts a MagicNode.
+
+### Why an initializer is required
+- `@DynamicNode` needs the incoming `MagicNode` bound to your view instance.  
+- When a view contains property wrappers like `@State`, Swift will **not** synthesize the memberwise initializer you might expect.  
+- Magic-UI’s plugin loader constructs your view by passing the node → therefore your view needs `init(node: MagicNode)`.  
+
+### Example: Counter with local state
+
+```swift
+struct CounterView: SxViewProtocol {
+    @DynamicNode var node: MagicNode
+    
+    @State var counter = 0
+    
+    // If you using @State variables, you need to create custom initializer
+    init(node: MagicNode) {
+        self.node = node
+    }
+    
+    var body: some View {
+        VStack() {
+            Text(node.getAttribute("title") ?? "")
+                .font(.title).foregroundStyle(.red)
+            Text("\(counter)")
+                .foregroundStyle(.secondary)
+            HStack {
+                Button("⊕") {
+                    counter += 1
+                }
+                Button("⊖") {
+                    counter -= 1
+                }
+            }
+            .font(.title)
+        }
+        .background(.yellow.opacity(0.3))
+    }
+}
+```
+
+### Installation
+To make your custom view available in your Magic UI setup:
+
+```swift
+MagicUiView.installViewPlugin(name: "counterview", plugin: CounterView.self)
+```
+
+### Usage
+You can now use your custom view in XML:
+```xml
+<counterview title="Counter"/>
+```
+
+## Option 3: Using SwiftUI Views
 
 This option allows you to integrate existing SwiftUI views or create new ones without handling custom attributes, making it perfect for simpler use cases or when working with existing SwiftUI components.
 
@@ -71,7 +128,7 @@ struct ClockView: View {
 ### Installation
 Register the view for use in your XML layouts:
 ```swift
-MagicUiView.installViewPlugin(name: "clockview", plugin: ClockView.self)
+MagicUiView.installViewPlugin(name: "clockview", plugin: ClockView())
 ```
 
 ### Usage
