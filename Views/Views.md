@@ -21,6 +21,7 @@
 - [slider](Controls/slider.md)
 - [stepper](Controls/stepper.md)
 - [tabview](Controls/tabview.md)
+- [text](Controls/text.md)
 - [texteditor](Controls/texteditor.md)
 - [textfield](Controls/textfield.md)
 - [toggle](Controls/toggle.md)
@@ -55,18 +56,18 @@
 - [image](Other/image.md)
 - [rectangle](Other/rectangle.md)
 - [roundedrectangle](Other/roundedrectangle.md)
-- [text](Other/text.md)
 
 ## Custom
 - [barcode](Custom/barcode.md)
 - [barcodescanner](Custom/barcodescanner.md)
 - [camera](Custom/camera.md)
-- [card](Custom/card.md)
 - [customview](Custom/customview.md)
 - [documentpicker](Custom/documentpicker.md)
 - [extendedlist](Custom/extendedlist.md)
 - [foreach](Custom/foreach.md)
+- [newassetimage](Custom/newassetimage.md)
 - [photospicker](Custom/photospicker.md)
+- [qrcode](Custom/qrcode.md)
 - [remoteview](Custom/remoteview.md)
 - [scrollingtext](Custom/scrollingtext.md)
 - [videoview](Custom/videoview.md)
@@ -74,3 +75,7 @@
 - [webkitview](Custom/webkitview.md)
 - [webview](Custom/webview.md)
 - [youtubevideoview](Custom/youtubevideoview.md)
+
+## In Testing
+- [card](In%20Testing/card.md)
+- [textfield2](In%20Testing/textfield2.md)
