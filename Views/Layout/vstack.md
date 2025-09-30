@@ -1,0 +1,82 @@
+**VStac** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
+
+***Parameters:***
+
+`alignment` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
+* `leading` Aligns the views along the leading edge, which is the left edge in left-to-right languages like English.
+* `center` Aligns the views along the center.
+* `trailing` Aligns the views along the trailing edge, which is the right edge in left-to-right languages.
+
+> **Default value:** center
+
+`spacing` (optional) This parameter determines the vertical spacing between the views.
+> **Default value:** System default spacing
+
+## Examples
+
+
+
+```xml
+<body>
+    <vstack>
+        <circle foregroundColor="red"/>
+        <circle foregroundColor="green"/>
+        <circle foregroundColor="blue"/>
+    </vstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-0.png?ts=1735484869.720086" alt="Example" width="250"/>
+
+---
+*With no spacing*
+
+```xml
+<body>
+  <vstack spacing="0">
+      <rectangle foregroundColor="red"/>
+      <rectangle foregroundColor="green"/>
+      <rectangle foregroundColor="blue"/>
+  </vstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-1.png?ts=1735484869.720088" alt="Example" width="250"/>
+
+---
+*Combined with hstack*
+
+```xml
+<body>
+  <hstack>
+      <rectangle foregroundColor="yellow"/>
+      <vstack>
+          <rectangle foregroundColor="red"/>
+          <rectangle foregroundColor="green"/>
+          <rectangle foregroundColor="blue"/>
+      </vstack>
+      <rectangle foregroundColor="yellow"/>
+  </hstack>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-2.png?ts=1735484869.72009" alt="Example" width="250"/>
+
+---
+*Combined with hstack*
+
+```xml
+<body>
+    <foreach repeatCount="8">
+    <hstack>
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="orange"/>
+        <rectangle foregroundColor="red"/>
+    </hstack>
+    </foreach>
+</body>
+```
+
+<img src="https://magic-ui.com/Help/GitHubAssets/vstack-3.png?ts=1735484869.720092" alt="Example" width="250"/>
+
+---
