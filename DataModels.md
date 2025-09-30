@@ -1,81 +1,33 @@
-# View Plugins
+# Data Models in Magic-UI
 
-Magic UI is designed to be easily extensible by developers, allowing the creation of custom views that seamlessly integrate with your application. There are two primary methods for creating custom views, each suited for different needs and complexity levels.
+Magic-UI provides a flexible data model layer for working with local and remote structured data.  
+Data models can be JSON- or CSV-based, automatically saved, and manipulated with built-in actions.
 
-## Option 1: View with MagicNode and Custom Attributes
+---
 
-This approach lets you create a custom view that can access and utilize attributes defined in XML, providing greater control over the view's customization and behavior.
+## 📂 Autosaving
 
-### Example: Text with Subtitle
-This example demonstrates creating a simple view that displays a title and subtitle, both definable in XML.
-The custom view plugin must conform to the `CustomViewPlugin` protocol.
+- Data models are saved automatically in the **`Documents/SavedDataModels/`** folder.  
+- Filename format: **`<name>_saved.json`** (where `name` is the data model key).  
+- Saved models can be loaded **offline**.
 
-```swift
-struct TextWithSubtitle: SxViewProtocol {
-    @DynamicNode var node: MagicNode
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(node.getAttribute("title") ?? "")
-                .font(.title).foregroundStyle(.red)
-            Text(node.getAttribute("subtitle") ?? "")
-                .foregroundStyle(.secondary)
-        }
-    }
-}
-```
+---
 
-### Installation
-To make your custom view available in your Magic UI setup:
+## 📝 Supported Data Model Types
 
-```swift
-MagicUiView.installViewPlugin(name: "textwithsubtitle", plugin: TextWithSubtitle.self)
-```
+Each data model defines its own source (`DataModelSource` protocol). Currently supported types:
 
-### Usage
-You can now use your custom view in XML:
+- `DataModelTypeJson`
+- `DataModelTypeCsv`
+
+### XML Declaration
+
+If the `type` attribute is not provided, the default is **`json`**.
+
 ```xml
-<textwithsubtitle title="Hello" subtitle="MagicUI"/>
-```
+<datamodel key="countries" type="json" src="res:countries.json"/>
+<datamodel key="excel" type="csv" src="url:https://magic-ui.com/Demo/DataModels/test.csv"/>
 
-## Option 2: Using SwiftUI Views
-
-This option allows you to integrate existing SwiftUI views or create new ones without handling custom attributes, making it perfect for simpler use cases or when working with existing SwiftUI components.
-
-### Example: Clock View
-Here's an example of a clock view that updates every second:
-```swift
-struct ClockView: View {
-    @State private var currentTime = Date()
-    @State private var ticks = 0
-    
-    private var timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(currentTime, style: .time)
-                .font(.largeTitle)
-                .onReceive(timer) { input in
-                    self.currentTime = input
-                    self.ticks += 1
-                }
-            Text("Ticks: \(ticks)").monospacedDigit()
-        }
-        .onAppear {
-            self.currentTime = Date()
-        }
-    }
-}
-```
-
-### Installation
-Register the view for use in your XML layouts:
-```swift
-MagicUiView.installViewPlugin(name: "clockview", plugin: ClockView.self)
-```
-
-### Usage
-Use the clock view in your XML:
-```xml
-<clockview/>
-```
+<!-- Create an empty model -->
+<datamodel key="dmEmpty" type="json" src="new"/>
+<datamodel key="dmEmpty" src="new"/>
