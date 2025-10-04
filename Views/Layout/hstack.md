@@ -23,94 +23,90 @@
     <hstack>
         <circle foregroundColor="red"/>
         <circle foregroundColor="green"/>
-        <circle foregroundColor="blue"/>        
+        <circle foregroundColor="blue"/>
     </hstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-0.png?ts=1735484869.720097" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/hstack.png" width="250" alt="Screenshot">
+
 
 ---
 
 
 ```xml
 <body>
-  <hstack spacing="0">
-      <rectangle foregroundColor="red"/>
-      <rectangle foregroundColor="green"/>
-      <rectangle foregroundColor="blue"/>
-  </hstack>
+    <hstack spacing="0">
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="green"/>
+        <rectangle foregroundColor="blue"/>
+    </hstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-1.png?ts=1735484869.720099" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/hstack_1.png" width="250" alt="Screenshot">
+
 
 ---
 *Example with various spacings*
 
 ```xml
 <body>
-  <vstack>
-  
-  <text>spacing 0:</text>
-  <hstack spacing="0">
-    <rectangle foregroundColor="red"/>
-      <circle foregroundColor="green"/>
-      <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  <text>spacing 20:</text>
-  <hstack spacing="20">
-    <rectangle foregroundColor="red"/>
-    <circle foregroundColor="green"/>
-    <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  <text>spacing 100:</text>
-  <hstack spacing="100">
-    <rectangle foregroundColor="red"/>
-    <circle foregroundColor="green"/>
-    <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  </vstack>
+    <vstack>
+        <text>spacing 0:</text>
+        <hstack spacing="0">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+        <text>spacing 20:</text>
+        <hstack spacing="20">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+        <text>spacing 100:</text>
+        <hstack spacing="100">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+    </vstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-2.png?ts=1735484869.7201009" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/hstack_2.png" width="250" alt="Screenshot">
+
 
 ---
 *Example with various alignments*
 
 ```xml
 <body>
-  <vstack>
-  
-  <text>top alignment:</text>
-  <hstack alignment="top">
-    <rectangle foregroundColor="red"/>
-      <circle foregroundColor="green"/>
-      <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  <text>center alignment:</text>
-  <hstack alignment="center">
-    <rectangle foregroundColor="red"/>
-    <circle foregroundColor="green"/>
-    <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  <text>bottom alignment:</text>
-  <hstack alignment="bottom">
-    <rectangle foregroundColor="red"/>
-    <circle foregroundColor="green"/>
-    <rectangle foregroundColor="blue"/>
-  </hstack>
-  
-  </vstack>
+    <vstack>
+        <text>top alignment:</text>
+        <hstack alignment="top">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+        <text>center alignment:</text>
+        <hstack alignment="center">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+        <text>bottom alignment:</text>
+        <hstack alignment="bottom">
+            <rectangle foregroundColor="red"/>
+            <circle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </hstack>
+    </vstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/hstack-3.png?ts=1735484869.720104" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/hstack_3.png" width="250" alt="Screenshot">
+
 
 ---
