@@ -26,6 +26,8 @@
 </body>
 ```
 
+![Screenshot](./Screenshots/Views/Layout/vstack.png)
+
 <img src="https://magic-ui.com/Help/GitHubAssets/vstack-0.png?ts=1735484869.720086" alt="Example" width="250"/>
 
 ---
@@ -33,13 +35,15 @@
 
 ```xml
 <body>
-  <vstack spacing="0">
-      <rectangle foregroundColor="red"/>
-      <rectangle foregroundColor="green"/>
-      <rectangle foregroundColor="blue"/>
-  </vstack>
+    <vstack spacing="0">
+        <rectangle foregroundColor="red"/>
+        <rectangle foregroundColor="green"/>
+        <rectangle foregroundColor="blue"/>
+    </vstack>
 </body>
 ```
+
+![Screenshot](./Screenshots/Views/Layout/vstack_1.png)
 
 <img src="https://magic-ui.com/Help/GitHubAssets/vstack-1.png?ts=1735484869.720088" alt="Example" width="250"/>
 
@@ -48,17 +52,19 @@
 
 ```xml
 <body>
-  <hstack>
-      <rectangle foregroundColor="yellow"/>
-      <vstack>
-          <rectangle foregroundColor="red"/>
-          <rectangle foregroundColor="green"/>
-          <rectangle foregroundColor="blue"/>
-      </vstack>
-      <rectangle foregroundColor="yellow"/>
-  </hstack>
+    <hstack>
+        <rectangle foregroundColor="yellow"/>
+        <vstack>
+            <rectangle foregroundColor="red"/>
+            <rectangle foregroundColor="green"/>
+            <rectangle foregroundColor="blue"/>
+        </vstack>
+        <rectangle foregroundColor="yellow"/>
+    </hstack>
 </body>
 ```
+
+![Screenshot](./Screenshots/Views/Layout/vstack_2.png)
 
 <img src="https://magic-ui.com/Help/GitHubAssets/vstack-2.png?ts=1735484869.72009" alt="Example" width="250"/>
 
@@ -68,14 +74,16 @@
 ```xml
 <body>
     <foreach repeatCount="8">
-    <hstack>
-        <rectangle foregroundColor="red"/>
-        <rectangle foregroundColor="orange"/>
-        <rectangle foregroundColor="red"/>
-    </hstack>
+        <hstack>
+            <rectangle foregroundColor="red"/>
+            <rectangle foregroundColor="orange"/>
+            <rectangle foregroundColor="red"/>
+        </hstack>
     </foreach>
 </body>
 ```
+
+![Screenshot](./Screenshots/Views/Layout/vstack_3.png)
 
 <img src="https://magic-ui.com/Help/GitHubAssets/vstack-3.png?ts=1735484869.720092" alt="Example" width="250"/>
 
