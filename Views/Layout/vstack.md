@@ -26,9 +26,7 @@
 </body>
 ```
 
-![Screenshot](./Screenshots/Views/Layout/vstack.png)
-
-<img src="https://magic-ui.com/Help/GitHubAssets/vstack-0.png?ts=1735484869.720086" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/vstack_1.png" width="250" alt="Screenshot">
 
 ---
 *With no spacing*
