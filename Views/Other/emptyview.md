@@ -11,3 +11,5 @@ A view that has no content.
     <emptyview/>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/emptyview_1.png" width="250" alt="Screenshot">

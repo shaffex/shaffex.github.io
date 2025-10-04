@@ -15,3 +15,5 @@ A view that visually groups related controls.
     </controlgroup>
 </body>
 ```
+
+<img src="/Screenshots/Views/Layout/controlgroup_1.png" width="250" alt="Screenshot">

@@ -27,7 +27,8 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-0.png?ts=1735484869.719913" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_1.png" width="250" alt="Screenshot">
+
 
 ---
 *123*
@@ -38,7 +39,8 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-1.png?ts=1735484869.719917" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_2.png" width="250" alt="Screenshot">
+
 
 ---
 *Button with custom view*
@@ -61,7 +63,8 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-2.png?ts=1735484869.7199202" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_3.png" width="250" alt="Screenshot">
+
 
 ---
 *Button with role*
@@ -81,7 +84,8 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-3.png?ts=1735484869.719923" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_4.png" width="250" alt="Screenshot">
+
 
 ---
 *Alert with cancel and destructive buttons*
@@ -97,7 +101,8 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-4.png?ts=1735484869.7199259" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_5.png" width="250" alt="Screenshot">
+
 
 ---
 *Button with buttonStyle*
@@ -114,6 +119,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/button-5.png?ts=1735484869.719929" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/button_6.png" width="250" alt="Screenshot">
+
 
 ---

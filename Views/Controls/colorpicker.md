@@ -20,3 +20,5 @@ A control for selecting a color.
     </form>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/colorpicker_1.png" width="250" alt="Screenshot">

@@ -13,22 +13,22 @@ Presents an alert when a given condition is true.
 
 ```xml
 <body>
-<vstack>
-  <button alert="isPresented:myAlert" action="presentAlert:isPresented:myAlert">presentAlert:isPresented:myAlert</button>
-</vstack>
-
-<alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
+    <vstack>
+        <button alert="isPresented:myAlert" action="presentAlert:isPresented:myAlert">presentAlert:isPresented:myAlert</button>
+    </vstack>
+    <alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
 </alert>
-
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Controls/alert_1.png" width="250" alt="Screenshot">
 
 ```xml
 <body>
-<button alert="item:myAlertItem" action="presentAlert:item:myAlertItem;id:myAlert" onAppear="presentAlert:item:myAlertItem;id:myAlert">Show Alert</button>
-
-<alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
+    <button alert="item:myAlertItem" action="presentAlert:item:myAlertItem;id:myAlert" onAppear="presentAlert:item:myAlertItem;id:myAlert">Show Alert</button>
+    <alert id="myAlert" alertTitle="Info" alertMessage="This is my alert">
 </alert>
-
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Controls/alert_2.png" width="250" alt="Screenshot">

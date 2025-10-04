@@ -18,3 +18,5 @@ A view that can display and edit multiline, styled text.
     </form>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/texteditor_1.png" width="250" alt="Screenshot">

@@ -15,3 +15,5 @@ A view that displays an image from the app's asset catalog.
     <newassetimage>my-custom-asset</newassetimage>
 </body>
 ```
+
+<img src="/Screenshots/Views/Custom/newassetimage_1.png" width="250" alt="Screenshot">

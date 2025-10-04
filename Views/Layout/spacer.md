@@ -15,3 +15,5 @@ A flexible space that expands along the major axis of its containing stack layou
     </hstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Layout/spacer_1.png" width="250" alt="Screenshot">

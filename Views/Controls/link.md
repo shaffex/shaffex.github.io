@@ -8,6 +8,7 @@ link is a view that creates a navigation link to a URL that you provide. It allo
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/link-0.png?ts=1735484869.71996" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/link_1.png" width="250" alt="Screenshot">
+
 
 ---

@@ -13,6 +13,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/radialgradient-0.png?ts=1735484869.720142" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Paint/radialgradient_1.png" width="250" alt="Screenshot">
+
 
 ---

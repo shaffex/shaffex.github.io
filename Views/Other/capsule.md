@@ -16,3 +16,5 @@ A capsule shape aligned inside the frame of the view containing it.
     <capsule stroke="lineWidth:5" foregroundColor="red" padding="20"/>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/capsule_1.png" width="250" alt="Screenshot">

@@ -15,6 +15,7 @@ LinearGradient in SwiftUI is a view that creates a linear gradient color transit
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/lineargradient-0.png?ts=1735484869.7201371" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Paint/lineargradient_1.png" width="250" alt="Screenshot">
+
 
 ---

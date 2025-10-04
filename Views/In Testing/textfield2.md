@@ -18,3 +18,5 @@ A composite view that combines a text label (caption) with a text field.
     </form>
 </body>
 ```
+
+<img src="/Screenshots/Views/In Testing/textfield2_1.png" width="250" alt="Screenshot">

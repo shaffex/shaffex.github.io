@@ -13,24 +13,26 @@
 *If no systemImage provided*
 
 ```xml
-<body>  
-  <contentunavailableview title="Title" description="Description">
+<body>
+    <contentunavailableview title="Title" description="Description">
   </contentunavailableview>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-0.png?ts=1735484869.720148" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Other/contentunavailableview_1.png" width="250" alt="Screenshot">
+
 
 ---
 *If no systemImage provided*
 
 ```xml
-<body>  
-  <contentunavailableview title="Title" description="Description" systemImage="exclamationmark.triangle">
+<body>
+    <contentunavailableview title="Title" description="Description" systemImage="exclamationmark.triangle">
   </contentunavailableview>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/contentunavailableview-1.png?ts=1735484869.72015" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Other/contentunavailableview_2.png" width="250" alt="Screenshot">
+
 
 ---

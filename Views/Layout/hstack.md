@@ -32,6 +32,7 @@
 
 
 
+
 ---
 
 
@@ -46,6 +47,7 @@
 ```
 
 <img src="/Screenshots/Views/Layout/hstack_2.png" width="250" alt="Screenshot">
+
 
 
 
@@ -81,6 +83,7 @@
 
 
 
+
 ---
 *Example with various alignments*
 
@@ -110,6 +113,7 @@
 ```
 
 <img src="/Screenshots/Views/Layout/hstack_4.png" width="250" alt="Screenshot">
+
 
 
 

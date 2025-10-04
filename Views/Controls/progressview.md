@@ -21,3 +21,5 @@ A view that shows the progress of a task.
     </vstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/progressview_1.png" width="250" alt="Screenshot">

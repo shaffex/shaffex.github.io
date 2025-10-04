@@ -22,3 +22,5 @@ A view that arranges its children in a horizontal line, creating items only as n
     </scrollview>
 </body>
 ```
+
+<img src="/Screenshots/Views/Layout/lazyhstack_1.png" width="250" alt="Screenshot">

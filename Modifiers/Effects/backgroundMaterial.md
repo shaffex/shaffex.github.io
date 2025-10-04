@@ -18,17 +18,19 @@ Applies a background material to the view, creating a translucent, blurred effec
 
 ```xml
 <body>
-<zstack>
-    <image systemImage="photo" resizable="" aspectRatio="fill" ignoresSafeArea=""/>
-    <vstack spacing="10" padding="20" foregroundColor="primary">
-        <text font="headline" fontWeight="bold">Background Materials</text>
-        <text backgroundMaterial="regular" padding="10" cornerRadius="8">Regular</text>
-        <text backgroundMaterial="thin" padding="10" cornerRadius="8">Thin</text>
-        <text backgroundMaterial="ultrathin" padding="10" cornerRadius="8">Ultra Thin</text>
-        <text backgroundMaterial="thick" padding="10" cornerRadius="8">Thick</text>
-        <text backgroundMaterial="ultrathick" padding="10" cornerRadius="8">Ultra Thick</text>
-        <text backgroundMaterial="bar" padding="10" cornerRadius="8">Bar</text>
-    </vstack>
-</zstack>
+    <zstack>
+        <image systemImage="photo" resizable="" aspectRatio="fill" ignoresSafeArea=""/>
+        <vstack spacing="10" padding="20" foregroundColor="primary">
+            <text font="headline" fontWeight="bold">Background Materials</text>
+            <text backgroundMaterial="regular" padding="10" cornerRadius="8">Regular</text>
+            <text backgroundMaterial="thin" padding="10" cornerRadius="8">Thin</text>
+            <text backgroundMaterial="ultrathin" padding="10" cornerRadius="8">Ultra Thin</text>
+            <text backgroundMaterial="thick" padding="10" cornerRadius="8">Thick</text>
+            <text backgroundMaterial="ultrathick" padding="10" cornerRadius="8">Ultra Thick</text>
+            <text backgroundMaterial="bar" padding="10" cornerRadius="8">Bar</text>
+        </vstack>
+    </zstack>
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Effects/backgroundMaterial_1.png" width="250" alt="Screenshot">

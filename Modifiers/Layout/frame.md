@@ -19,11 +19,13 @@ Positions this view within an invisible frame with the specified dimensions.
 
 ```xml
 <body>
-<list>
-    <text width="100" height="100" border="color:red;width:1">100x100</text>
-    <text maxWidth="infinity" height="50" border="color:red;width:5">maxWidth=infinity</text>
-    <text width="100" height="50" border="color:green;width:2">100x50</text>
-    <text width="150" height="100" border="color:blue;width:3">150x100</text>
-</list>
+    <list>
+        <text width="100" height="100" border="color:red;width:1">100x100</text>
+        <text maxWidth="infinity" height="50" border="color:red;width:5">maxWidth=infinity</text>
+        <text width="100" height="50" border="color:green;width:2">100x50</text>
+        <text width="150" height="100" border="color:blue;width:3">150x100</text>
+    </list>
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Layout/frame_1.png" width="250" alt="Screenshot">

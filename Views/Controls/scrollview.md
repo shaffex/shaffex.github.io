@@ -22,3 +22,5 @@ A scrollable view.
     </scrollview>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/scrollview_1.png" width="250" alt="Screenshot">

@@ -23,11 +23,12 @@
     <zstack>
         <circle foregroundColor="red"/>
         <circle foregroundColor="green" padding="50"/>
-        <circle foregroundColor="blue"  padding="100"/>
+        <circle foregroundColor="blue" padding="100"/>
     </zstack>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/zstack-0.png?ts=1735484869.720109" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Layout/zstack_1.png" width="250" alt="Screenshot">
+
 
 ---

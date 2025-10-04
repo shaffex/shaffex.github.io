@@ -16,77 +16,80 @@
 
 ```xml
 <body>
-  <list>
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list>
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-0.png?ts=1735484869.7200031" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/navigationlink_1.png" width="250" alt="Screenshot">
+
 
 ---
 *grouped List*
 
 ```xml
 <body>
-  <list listStyle="grouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list listStyle="grouped">
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-1.png?ts=1735484869.720004" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/navigationlink_2.png" width="250" alt="Screenshot">
+
 
 ---
 *insetGrouped List*
 
 ```xml
 <body>
-  <list listStyle="insetGrouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list listStyle="insetGrouped">
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-2.png?ts=1735484869.720006" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/navigationlink_3.png" width="250" alt="Screenshot">
+
 
 ---
 *List with sections*
 
 ```xml
 <body>
-  <list>
-  	<section header="Section 1 Header" footer="Section 1 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-    </section>
-    
-    <section header="Section 2 Header" footer="Section 2 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-    </section>
-  </list>
+    <list>
+        <section header="Section 1 Header" footer="Section 1 Footer">
+            <text>Item 1</text>
+            <text>Item 2</text>
+            <text>Item 3</text>
+            <text>Item 4</text>
+            <text>Item 5</text>
+        </section>
+        <section header="Section 2 Header" footer="Section 2 Footer">
+            <text>Item 1</text>
+            <text>Item 2</text>
+            <text>Item 3</text>
+            <text>Item 4</text>
+            <text>Item 5</text>
+        </section>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/navigationlink-3.png?ts=1735484869.720008" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/navigationlink_4.png" width="250" alt="Screenshot">
+
 
 ---

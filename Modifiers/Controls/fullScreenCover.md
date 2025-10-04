@@ -13,18 +13,18 @@ Presents a view that covers the screen when a given condition is true.
 
 ```xml
 <body>
-<vstack>
-<button action="presentFullScreenCover:mySheet">presentFullScreenCover:mySheet</button>
-<button fullScreenCover="isPresented:mySheet" action="presentSheet:isPresented:mySheet">presentFullScreenCover:isPresented:mySheet</button>
-<button fullScreenCover="item:mySheetItem" action="presentFullScreenCover:item:mySheetItem;id:mySheet">presentFullScreenCover:item:mySheetItem;id:mySheet</button>
-</vstack>
-
-<vstack id="mySheet">
-<text>I am full screen cover</text>
-<button action="dismissFullScreenCover:mySheet">dismissFullScreenCover:mySheet</button>
-<button action="dismissFullScreenCover:isPresented:mySheet">dismissFullScreenCover:isPresented:mySheet</button>
-<button action="dismissFullScreenCover:item:mySheetItem">dismissFullScreenCover:item:mySheetItem</button>
-</vstack>
-
+    <vstack>
+        <button action="presentFullScreenCover:mySheet">presentFullScreenCover:mySheet</button>
+        <button fullScreenCover="isPresented:mySheet" action="presentSheet:isPresented:mySheet">presentFullScreenCover:isPresented:mySheet</button>
+        <button fullScreenCover="item:mySheetItem" action="presentFullScreenCover:item:mySheetItem;id:mySheet">presentFullScreenCover:item:mySheetItem;id:mySheet</button>
+    </vstack>
+    <vstack id="mySheet">
+        <text>I am full screen cover</text>
+        <button action="dismissFullScreenCover:mySheet">dismissFullScreenCover:mySheet</button>
+        <button action="dismissFullScreenCover:isPresented:mySheet">dismissFullScreenCover:isPresented:mySheet</button>
+        <button action="dismissFullScreenCover:item:mySheetItem">dismissFullScreenCover:item:mySheetItem</button>
+    </vstack>
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Controls/fullScreenCover_1.png" width="250" alt="Screenshot">

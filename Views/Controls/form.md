@@ -16,77 +16,80 @@
 
 ```xml
 <body>
-  <list>
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list>
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-0.png?ts=1735484869.71994" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/form_1.png" width="250" alt="Screenshot">
+
 
 ---
 *grouped List*
 
 ```xml
 <body>
-  <list listStyle="grouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list listStyle="grouped">
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-1.png?ts=1735484869.719943" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/form_2.png" width="250" alt="Screenshot">
+
 
 ---
 *insetGrouped List*
 
 ```xml
 <body>
-  <list listStyle="insetGrouped">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-  </list>
+    <list listStyle="insetGrouped">
+        <text>Item 1</text>
+        <text>Item 2</text>
+        <text>Item 3</text>
+        <text>Item 4</text>
+        <text>Item 5</text>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-2.png?ts=1735484869.719945" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/form_3.png" width="250" alt="Screenshot">
+
 
 ---
 *List with sections*
 
 ```xml
 <body>
-  <list>
-  	<section header="Section 1 Header" footer="Section 1 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-    </section>
-    
-    <section header="Section 2 Header" footer="Section 2 Footer">
-    <text>Item 1</text>
-    <text>Item 2</text>
-    <text>Item 3</text>
-    <text>Item 4</text>
-    <text>Item 5</text>
-    </section>
-  </list>
+    <list>
+        <section header="Section 1 Header" footer="Section 1 Footer">
+            <text>Item 1</text>
+            <text>Item 2</text>
+            <text>Item 3</text>
+            <text>Item 4</text>
+            <text>Item 5</text>
+        </section>
+        <section header="Section 2 Header" footer="Section 2 Footer">
+            <text>Item 1</text>
+            <text>Item 2</text>
+            <text>Item 3</text>
+            <text>Item 4</text>
+            <text>Item 5</text>
+        </section>
+    </list>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/form-3.png?ts=1735484869.7199469" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/form_4.png" width="250" alt="Screenshot">
+
 
 ---

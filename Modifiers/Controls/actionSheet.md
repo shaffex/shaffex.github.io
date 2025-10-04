@@ -13,13 +13,14 @@ Presents an action sheet when a given condition is true.
 
 ```xml
 <body>
-<vstack actionSheet="isPresented:myActionSheet" onAppear="presentActionSheet:isPresented:myActionSheet"/>
-
-<alert id="myActionSheet" alertTitle="Action Sheet" alertMessage="Message for my action sheet">
-<button action="delay:0.01:presentActionSheet:isPresented:myActionSheet2">Open Action Sheet 2</button>
-<button>Action Default</button>
-<button role="destructive">Action Destructive</button>
-<button role="cancel">Action Cancel</button>
-</alert>
+    <vstack actionSheet="isPresented:myActionSheet" onAppear="presentActionSheet:isPresented:myActionSheet"/>
+    <alert id="myActionSheet" alertTitle="Action Sheet" alertMessage="Message for my action sheet">
+        <button action="delay:0.01:presentActionSheet:isPresented:myActionSheet2">Open Action Sheet 2</button>
+        <button>Action Default</button>
+        <button role="destructive">Action Destructive</button>
+        <button role="cancel">Action Cancel</button>
+    </alert>
 </body>
 ```
+
+<img src="/Screenshots/Modifiers/Controls/actionSheet_1.png" width="250" alt="Screenshot">

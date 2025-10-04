@@ -19,3 +19,5 @@ A view that displays one or more lines of read-only text.
     </vstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/text_1.png" width="250" alt="Screenshot">

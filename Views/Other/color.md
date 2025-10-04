@@ -15,3 +15,5 @@ A view that displays a solid color.
     <color>#FF0000</color>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/color_1.png" width="250" alt="Screenshot">

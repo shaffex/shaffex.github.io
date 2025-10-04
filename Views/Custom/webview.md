@@ -8,6 +8,7 @@ ZStack is a container that overlays its children, aligning them in both axes.
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/webview-0.png?ts=1735484869.720159" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Custom/webview_1.png" width="250" alt="Screenshot">
+
 
 ---

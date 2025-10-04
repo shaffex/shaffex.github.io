@@ -14,3 +14,5 @@ A view that collects multiple views into a single unit.
     </group>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/group_1.png" width="250" alt="Screenshot">

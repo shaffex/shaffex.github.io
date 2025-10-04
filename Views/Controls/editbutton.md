@@ -19,3 +19,5 @@ A button that toggles the edit mode for a view hierarchy.
     </navigationstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/editbutton_1.png" width="250" alt="Screenshot">

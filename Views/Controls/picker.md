@@ -14,88 +14,85 @@
 
 ```xml
 <body>
-    
-<form>
-<section footer="Selected value: $myPicker">
-<picker title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="nlue">Blue</text>	
-</picker>
-</section>
-
-<section footer="pickerStyle=&quot;segmented&quot;">
-<picker pickerStyle="segmented" title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="blue">Blue</text>	
-</picker>
-</section>
-
-<section footer="pickerStyle=&quot;menu&quot;">
-<picker pickerStyle="menu" title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="blue">Blue</text>	
-</picker>
-</section>
-
-<section footer="pickerStyle=&quot;navigationLink&quot;">
-<picker pickerStyle="navigationLink" title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="blue">Blue</text>	
-</picker>
-</section>
-
-<section footer="pickerStyle=&quot;inline&quot;">
-<picker pickerStyle="inline" title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="blue">Blue</text>	
-</picker>
-</section>
-
-</form>
+    <form>
+        <section footer="Selected value: $myPicker">
+            <picker title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="nlue">Blue</text>
+            </picker>
+        </section>
+        <section footer="pickerStyle=&quot;segmented&quot;">
+            <picker pickerStyle="segmented" title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="blue">Blue</text>
+            </picker>
+        </section>
+        <section footer="pickerStyle=&quot;menu&quot;">
+            <picker pickerStyle="menu" title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="blue">Blue</text>
+            </picker>
+        </section>
+        <section footer="pickerStyle=&quot;navigationLink&quot;">
+            <picker pickerStyle="navigationLink" title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="blue">Blue</text>
+            </picker>
+        </section>
+        <section footer="pickerStyle=&quot;inline&quot;">
+            <picker pickerStyle="inline" title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="blue">Blue</text>
+            </picker>
+        </section>
+    </form>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/picker-0.png?ts=1735484869.720048" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/picker_1.png" width="250" alt="Screenshot">
+
 
 ---
 
 
 ```xml
 <body>
-    
-<form>
-
-<section footer="pickerStyle=&quot;wheel&quot;">
-<picker height="120" pickerStyle="wheel" title="Select Color" key="myPicker" value="green">My Toggle>
-	<text tag="red">Red</text>
-	<text tag="green">Green</text>
-	<text tag="blue">Blue</text>	
-</picker>
-</section>
-
-
-<section footer="pickerStyle=&quot;wheel&quot;">
-<picker pickerStyle="wheel" title="Select Day" key="myPickerDay" value="Monday">My Toggle>
-  <text tag="Monday">Monday</text>
-  <text tag="Tuesday">Tuesday</text>
-  <text tag="Wednesday">Wednesday</text>
-  <text tag="Thursday">Thursday</text>
-  <text tag="Friday">Friday</text>
-  <text tag="Saturday">Saturday</text>
-  <text tag="Sunday">Sunday</text>
-</picker>
-</section>
-
-</form>
-
+    <form>
+        <section footer="pickerStyle=&quot;wheel&quot;">
+            <picker height="120" pickerStyle="wheel" title="Select Color" key="myPicker" value="green">
+                My Toggle&gt;
+                <text tag="red">Red</text>
+                <text tag="green">Green</text>
+                <text tag="blue">Blue</text>
+            </picker>
+        </section>
+        <section footer="pickerStyle=&quot;wheel&quot;">
+            <picker pickerStyle="wheel" title="Select Day" key="myPickerDay" value="Monday">
+                My Toggle&gt;
+                <text tag="Monday">Monday</text>
+                <text tag="Tuesday">Tuesday</text>
+                <text tag="Wednesday">Wednesday</text>
+                <text tag="Thursday">Thursday</text>
+                <text tag="Friday">Friday</text>
+                <text tag="Saturday">Saturday</text>
+                <text tag="Sunday">Sunday</text>
+            </picker>
+        </section>
+    </form>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/picker-1.png?ts=1735484869.7200499" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/picker_2.png" width="250" alt="Screenshot">
+
 
 ---

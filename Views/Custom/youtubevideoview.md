@@ -15,3 +15,5 @@ A view that displays a YouTube video.
     <youtubevideoview videoId="uBoijwzuY5s"/>
 </body>
 ```
+
+<img src="/Screenshots/Views/Custom/youtubevideoview_1.png" width="250" alt="Screenshot">

@@ -23,3 +23,5 @@ A view that displays an image.
     </hstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/image_1.png" width="250" alt="Screenshot">

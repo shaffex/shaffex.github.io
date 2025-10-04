@@ -15,3 +15,5 @@ A visual element that can be used to separate other content.
     </vstack>
 </body>
 ```
+
+<img src="/Screenshots/Views/Other/divider_1.png" width="250" alt="Screenshot">

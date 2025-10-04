@@ -4,13 +4,14 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
 
 ```xml
 <body>
-  <form>
-    <toggle key="myToggle" value="true">My Toggle2</toggle>
-    <toggle key="myToggle2" value="false">My Toggle2</toggle>
-   </form>
+    <form>
+        <toggle key="myToggle" value="true">My Toggle2</toggle>
+        <toggle key="myToggle2" value="false">My Toggle2</toggle>
+    </form>
 </body>
 ```
 
-<img src="https://magic-ui.com/Help/GitHubAssets/toggle-0.png?ts=1735484869.7200642" alt="Example" width="250"/>
+<img src="/Screenshots/Views/Controls/toggle_1.png" width="250" alt="Screenshot">
+
 
 ---

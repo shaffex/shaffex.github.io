@@ -25,3 +25,5 @@ A container view that you can use to add hierarchy to a list.
     </list>
 </body>
 ```
+
+<img src="/Screenshots/Views/Controls/section_1.png" width="250" alt="Screenshot">
