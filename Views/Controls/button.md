@@ -18,13 +18,12 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-  <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog"/>
-    
-  <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
-    <button role="">Positive</button>
-    <button role="destructive">Destructive</button>
-    <button role="cancel">Cancel</button>
-  </alert>
+    <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog"/>
+    <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
+        <button role="">Positive</button>
+        <button role="destructive">Destructive</button>
+        <button role="cancel">Cancel</button>
+    </alert>
 </body>
 ```
 
@@ -46,20 +45,19 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-	<vstack>
-	<button>
-		<vstack padding="" background="red" clipShape="capsule" foregroundColor="white">
-			<image systemName="plus" font="largeTitle"/>
-			<text>My custom button</text>
-		</vstack>
-	</button>
-	
-	<button  padding="" background="red" clipShape="circle">
-		<vstack foregroundColor="white">
-			<image systemName="plus" font="largeTitle"/>
-		</vstack>
-	</button>
-	</vstack>
+    <vstack>
+        <button>
+            <vstack padding="" background="red" clipShape="capsule" foregroundColor="white">
+                <image systemName="plus" font="largeTitle"/>
+                <text>My custom button</text>
+            </vstack>
+        </button>
+        <button padding="" background="red" clipShape="circle">
+            <vstack foregroundColor="white">
+                <image systemName="plus" font="largeTitle"/>
+            </vstack>
+        </button>
+    </vstack>
 </body>
 ```
 
@@ -70,16 +68,15 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-	<vstack alert="isPresented:myAlert" onAppear="presentAlert:isPresented:myAlert">
-	<button>Default Button</button>
-	<button role="destructive">destructive Button</button>
-    <button role="cancel">cancel Button</button>
-    <text>Note: cancel role is in bold in alerts etc</text>
+    <vstack alert="isPresented:myAlert" onAppear="presentAlert:isPresented:myAlert">
+        <button>Default Button</button>
+        <button role="destructive">destructive Button</button>
+        <button role="cancel">cancel Button</button>
+        <text>Note: cancel role is in bold in alerts etc</text>
     </vstack>
-    
     <alert id="myAlert" alertTitle="Warning" alertMessage="Do you want to delete all files?">
-    <button role="destructive">Destructive</button>
-    <button role="cancel">Cancel</button>
+        <button role="destructive">Destructive</button>
+        <button role="cancel">Cancel</button>
     </alert>
 </body>
 ```
@@ -91,12 +88,11 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-	<emptyview alert="isPresented:myAlert" onAppear="presentAlert:isPresented:myAlert">
+    <emptyview alert="isPresented:myAlert" onAppear="presentAlert:isPresented:myAlert">
 	</emptyview>
-    
     <alert id="myAlert" alertTitle="Warning" alertMessage="Do you want to delete all files?">
-    <button role="destructive">Destructive</button>
-    <button role="cancel">Cancel</button>
+        <button role="destructive">Destructive</button>
+        <button role="cancel">Cancel</button>
     </alert>
 </body>
 ```
@@ -108,12 +104,12 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-	<vstack>
-	<button>Default Button</button>
-	<button buttonStyle="plain">plain Button</button>
-    <button buttonStyle="bordered">bordered Button</button>
-    <button buttonStyle="borderless">borderless Button</button>
-    <button buttonStyle="borderedProminent">borderedProminent Button</button>
+    <vstack>
+        <button>Default Button</button>
+        <button buttonStyle="plain">plain Button</button>
+        <button buttonStyle="bordered">bordered Button</button>
+        <button buttonStyle="borderless">borderless Button</button>
+        <button buttonStyle="borderedProminent">borderedProminent Button</button>
     </vstack>
 </body>
 ```
