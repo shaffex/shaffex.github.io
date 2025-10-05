@@ -12,8 +12,11 @@ A capsule shape aligned inside the frame of the view containing it.
 
 ```xml
 <body>
-    <capsule foregroundColor="blue"/>
-    <capsule stroke="lineWidth:5" foregroundColor="red" padding="20"/>
+    <vstack padding="">
+        <capsule foregroundColor="blue"/>
+        <capsule foregroundColor="red"/>
+        <capsule stroke="lineWidth:5;dash:10" foregroundColor="red" padding="20"/>
+    </vstack>
 </body>
 ```
 <img src="/Screenshots/Views/Other/capsule_1.png" width="250" alt="Screenshot">

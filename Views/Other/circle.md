@@ -12,8 +12,10 @@ A circle shape aligned inside the frame of the view containing it.
 
 ```xml
 <body>
-    <circle foregroundColor="green"/>
-    <circle stroke="lineWidth:10" foregroundColor="orange" padding="20"/>
+    <vstack>
+        <circle foregroundColor="green"/>
+        <circle stroke="lineWidth:10; dash:5" foregroundColor="orange" padding="20"/>
+    </vstack>
 </body>
 ```
 <img src="/Screenshots/Views/Other/circle_1.png" width="250" alt="Screenshot">
