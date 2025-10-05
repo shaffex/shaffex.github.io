@@ -15,15 +15,15 @@
 
 
 ```xml
-<body>
-    <list>
+<form>
+    <list navigationTitle="Form">
         <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
+    <text>Item 2</text>
+          <text>Item 3</text>
         <text>Item 4</text>
         <text>Item 5</text>
     </list>
-</body>
+</form>
 ```
 
 <img src="/Screenshots/Views/Controls/form_1.png" width="250" alt="Screenshot">
