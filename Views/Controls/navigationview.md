@@ -1,91 +1,47 @@
-**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+**NavigationView** is a container view that provides a navigation interface for hierarchical content. It's used to manage a stack of views, allowing users to navigate to deeper levels of content and return.
+
+**Note:** `NavigationView` is deprecated in iOS 16 and later. For new apps, or apps targeting newer OS versions, it is recommended to use `NavigationStack`.
 
 ***Parameters:***
 
-`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
-* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
-* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
-* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
-* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
-* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
-* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+*   `navigationTitle`: The title to display in the navigation bar.
+*   `navigationTitleDisplayMode`: An attribute that controls how the navigation title is displayed. It can have one of the following values:
+    *   `automatic`: The default mode, which typically displays a large title that transitions to an inline title as the user scrolls.
+    *   `large`: Always displays a large title.
+    *   `inline`: Always displays a smaller, inline title within the navigation bar.
 
-> **Default value:** `automatic`
+***Example:***
 
-
+The example below shows a `NavigationView` containing a `List`. The `navigationTitle` is set to "Navigation View". A `NavigationLink` within the list allows the user to navigate to a detail view.
 
 ```xml
 <body>
-    <list>
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
+    <navigationview>
+        <list navigationTitle="Navigation View">
+            <navigationlink destination="viewDetails">
+                <text>Go to Details</text>
+            </navigationlink>
+        </list>
+    </navigationview>
+    <text id="viewDetails">Details</text>
 </body>
 ```
 <img src="/Screenshots/Views/Controls/navigationview_1.png" width="250" alt="Screenshot">
 
+***Inline Title Example:***
 
----
-*grouped List*
+This example demonstrates the use of `navigationTitleDisplayMode="inline"` to force the navigation title to always be displayed in the smaller, inline format.
 
 ```xml
 <body>
-    <list listStyle="grouped">
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
+    <navigationview>
+        <list navigationTitle="Navigation View" navigationTitleDisplayMode="inline">
+            <navigationlink destination="viewDetails">
+                <text>Go to Details</text>
+            </navigationlink>
+        </list>
+    </navigationview>
+    <text id="viewDetails">Details</text>
 </body>
 ```
 <img src="/Screenshots/Views/Controls/navigationview_2.png" width="250" alt="Screenshot">
-
-
----
-*insetGrouped List*
-
-```xml
-<body>
-    <list listStyle="insetGrouped">
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
-</body>
-```
-<img src="/Screenshots/Views/Controls/navigationview_3.png" width="250" alt="Screenshot">
-
-
----
-*List with sections*
-
-```xml
-<body>
-    <list>
-        <section header="Section 1 Header" footer="Section 1 Footer">
-            <text>Item 1</text>
-            <text>Item 2</text>
-            <text>Item 3</text>
-            <text>Item 4</text>
-            <text>Item 5</text>
-        </section>
-        <section header="Section 2 Header" footer="Section 2 Footer">
-            <text>Item 1</text>
-            <text>Item 2</text>
-            <text>Item 3</text>
-            <text>Item 4</text>
-            <text>Item 5</text>
-        </section>
-    </list>
-</body>
-```
-<img src="/Screenshots/Views/Controls/navigationview_4.png" width="250" alt="Screenshot">
-
-
----
