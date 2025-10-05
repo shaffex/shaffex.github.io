@@ -14,30 +14,15 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ## Examples
 
-*Confirmation dialog with positive, destructive and cancel buttons*
+---
+*Simple Button*
 
 ```xml
 <body>
-    <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog"/>
-    <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
-        <button role="">Positive</button>
-        <button role="destructive">Destructive</button>
-        <button role="cancel">Cancel</button>
-    </alert>
+    <button>I am a button</button>
 </body>
 ```
 <img src="/Screenshots/Views/Controls/button_1.png" width="250" alt="Screenshot">
-
-
----
-*123*
-
-```xml
-<body>
-    <button>Press Me 2</button>
-</body>
-```
-<img src="/Screenshots/Views/Controls/button_2.png" width="250" alt="Screenshot">
 
 
 ---
@@ -60,7 +45,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </vstack>
 </body>
 ```
-<img src="/Screenshots/Views/Controls/button_3.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Views/Controls/button_2.png" width="250" alt="Screenshot">
 
 
 ---
@@ -68,19 +53,15 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
 
 ```xml
 <body>
-    <vstack alert="isPresented:myAlert" onAppear="presentAlert:isPresented:myAlert">
+    <vstack>
         <button>Default Button</button>
-        <button role="destructive">destructive Button</button>
-        <button role="cancel">cancel Button</button>
+        <button role="destructive">Destructive Button</button>
+        <button role="cancel">Cancel Button</button>
         <text>Note: cancel role is in bold in alerts etc</text>
     </vstack>
-    <alert id="myAlert" alertTitle="Warning" alertMessage="Do you want to delete all files?">
-        <button role="destructive">Destructive</button>
-        <button role="cancel">Cancel</button>
-    </alert>
 </body>
 ```
-<img src="/Screenshots/Views/Controls/button_4.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Views/Controls/button_3.png" width="250" alt="Screenshot">
 
 
 ---
@@ -96,7 +77,7 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </alert>
 </body>
 ```
-<img src="/Screenshots/Views/Controls/button_5.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Views/Controls/button_4.png" width="250" alt="Screenshot">
 
 
 ---
@@ -113,7 +94,21 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </vstack>
 </body>
 ```
-<img src="/Screenshots/Views/Controls/button_6.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Views/Controls/button_5.png" width="250" alt="Screenshot">
 
 
 ---
+
+*Confirmation dialog with positive, destructive and cancel buttons*
+
+```xml
+<body>
+    <vstack confirmationDialog="isPresented:myConfirmationDialog" onAppear="presentConfirmationDialog:isPresented:myConfirmationDialog"/>
+    <alert id="myConfirmationDialog" alertTitle="Confirmation Dialog" alertMessage="Can you see positive, destructive and cancel buttons?">
+        <button role="">Positive</button>
+        <button role="destructive">Destructive</button>
+        <button role="cancel">Cancel</button>
+    </alert>
+</body>
+```
+<img src="/Screenshots/Views/Controls/button_6.png" width="250" alt="Screenshot">
