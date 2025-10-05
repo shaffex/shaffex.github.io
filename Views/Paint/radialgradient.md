@@ -8,7 +8,7 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
 
 ```xml
 <body>
-    <radialgradient gradient="colors:[red,green,blue];center:0.5,0.5;startRadius:50;endRadius:200">
+    <radialgradient gradient="colors:[red,green,blue];center:0.5,0.5;startRadius:50;endRadius:200" ignoresSafeArea="">
     </radialgradient>
 </body>
 ```
