@@ -18,7 +18,6 @@
   </contentunavailableview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/contentunavailableview_1.png" width="250" alt="Screenshot">
 
 
@@ -31,7 +30,6 @@
   </contentunavailableview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/contentunavailableview_2.png" width="250" alt="Screenshot">
 
 

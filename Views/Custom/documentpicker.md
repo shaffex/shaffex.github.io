@@ -11,5 +11,4 @@ A view controller for selecting a document.
     <documentpicker/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/documentpicker_1.png" width="250" alt="Screenshot">

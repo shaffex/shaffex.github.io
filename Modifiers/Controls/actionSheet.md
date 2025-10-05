@@ -22,5 +22,4 @@ Presents an action sheet when a given condition is true.
     </alert>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/actionSheet_1.png" width="250" alt="Screenshot">

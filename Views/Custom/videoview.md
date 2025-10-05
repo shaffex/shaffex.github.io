@@ -28,7 +28,6 @@ This example shows a simple video player that plays a remote video file.
     <videoview src="url:https://shaffex.com/MagicUiDemo/Resources/TestVideo.mp4" videoGravity="resizeAspect"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/videoview_1.png" width="250" alt="Screenshot">
 
 
@@ -43,7 +42,6 @@ This example shows a video that autoplays in a loop without any visible playback
     <videoview src="url:https://shaffex.com/MagicUiDemo/Resources/TestVideo.mp4" videoGravity="resizeAspectFill" showsPlaybackControls="false" isLooping="true" volume="0.0"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/videoview_2.png" width="250" alt="Screenshot">
 
 ---
@@ -60,6 +58,5 @@ This example demonstrates how to control video playback using a `toggle` switch.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/videoview_3.png" width="250" alt="Screenshot">
 ---

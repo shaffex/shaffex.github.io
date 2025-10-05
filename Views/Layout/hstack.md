@@ -27,7 +27,6 @@
     </hstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/hstack_1.png" width="250" alt="Screenshot">
 
 
@@ -45,7 +44,6 @@
     </hstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/hstack_2.png" width="250" alt="Screenshot">
 
 
@@ -78,7 +76,6 @@
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/hstack_3.png" width="250" alt="Screenshot">
 
 
@@ -111,7 +108,6 @@
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/hstack_4.png" width="250" alt="Screenshot">
 
 

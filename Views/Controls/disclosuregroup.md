@@ -26,5 +26,4 @@ A view that shows or hides another content view, based on the state of a disclos
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/disclosuregroup_1.png" width="250" alt="Screenshot">

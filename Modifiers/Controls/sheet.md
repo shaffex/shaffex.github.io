@@ -25,5 +25,4 @@ Presents a sheet when a given condition is true.
     <text id="mySheet2">I am new sheet 2</text>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/sheet_1.png" width="250" alt="Screenshot">

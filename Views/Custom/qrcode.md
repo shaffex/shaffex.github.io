@@ -15,5 +15,4 @@ An alias for the `barcode` view, specifically for generating QR codes.
     <qrcode foregroundColor="#0000FF" backgroundColor="#FFFFFF">Hello, World!</qrcode>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/qrcode_1.png" width="250" alt="Screenshot">

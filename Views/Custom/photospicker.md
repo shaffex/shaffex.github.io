@@ -18,5 +18,4 @@ A view that allows the user to pick photos and videos from their photo library.
     <image if="$selectedImage != nil" key="selectedImage" resizable="" aspectRatio="fit" frame="height:200"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/photospicker_1.png" width="250" alt="Screenshot">

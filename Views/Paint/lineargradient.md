@@ -14,7 +14,6 @@ LinearGradient in SwiftUI is a view that creates a linear gradient color transit
     </lineargradient>
 </body>
 ```
-
 <img src="/Screenshots/Views/Paint/lineargradient_1.png" width="250" alt="Screenshot">
 
 

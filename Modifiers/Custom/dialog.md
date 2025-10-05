@@ -24,7 +24,6 @@ Presents a custom view as a modal dialog. The dialog appears on top of the curre
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Custom/dialog_1.png" width="250" alt="Screenshot">
 
 **Presenting with item**
@@ -40,5 +39,4 @@ Presents a custom view as a modal dialog. The dialog appears on top of the curre
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Custom/dialog_2.png" width="250" alt="Screenshot">

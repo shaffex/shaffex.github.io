@@ -19,5 +19,4 @@ A view that switches between multiple child views using interactive user interfa
     </tabview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/tabview_1.png" width="250" alt="Screenshot">

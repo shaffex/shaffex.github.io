@@ -20,7 +20,6 @@
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/label_1.png" width="250" alt="Screenshot">
 
 
@@ -51,7 +50,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/label_2.png" width="250" alt="Screenshot">
 
 

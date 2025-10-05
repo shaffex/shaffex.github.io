@@ -38,5 +38,4 @@ Sets the size for controls like buttons, toggles, and pickers within this view.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/controlSize_1.png" width="250" alt="Screenshot">

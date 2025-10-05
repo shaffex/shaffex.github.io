@@ -24,7 +24,6 @@
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/slider_1.png" width="250" alt="Screenshot">
 
 

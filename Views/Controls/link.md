@@ -7,7 +7,6 @@ link is a view that creates a navigation link to a URL that you provide. It allo
     <link url="https://shaffex.github.io">Open URL</link>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/link_1.png" width="250" alt="Screenshot">
 
 

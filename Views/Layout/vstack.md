@@ -25,7 +25,6 @@
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/vstack_1.png" width="250" alt="Screenshot">
 
 
@@ -44,7 +43,6 @@
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/vstack_2.png" width="250" alt="Screenshot">
 
 
@@ -67,7 +65,6 @@
     </hstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/vstack_3.png" width="250" alt="Screenshot">
 
 
@@ -88,7 +85,6 @@
     </foreach>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/vstack_4.png" width="250" alt="Screenshot">
 
 

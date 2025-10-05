@@ -27,5 +27,4 @@ Positions this view within an invisible frame with the specified dimensions.
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Layout/frame_1.png" width="250" alt="Screenshot">

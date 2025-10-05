@@ -22,5 +22,4 @@ A view that uses the device's camera to scan for barcodes.
     </zstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/barcodescanner_1.png" width="250" alt="Screenshot">

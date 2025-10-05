@@ -26,7 +26,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </alert>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_1.png" width="250" alt="Screenshot">
 
 
@@ -38,7 +37,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     <button>Press Me 2</button>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_2.png" width="250" alt="Screenshot">
 
 
@@ -62,7 +60,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_3.png" width="250" alt="Screenshot">
 
 
@@ -83,7 +80,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </alert>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_4.png" width="250" alt="Screenshot">
 
 
@@ -100,7 +96,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </alert>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_5.png" width="250" alt="Screenshot">
 
 
@@ -118,7 +113,6 @@ In SwiftUI, a Button is a user interface control that performs an action when ta
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/button_6.png" width="250" alt="Screenshot">
 
 

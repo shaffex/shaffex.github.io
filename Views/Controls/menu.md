@@ -25,7 +25,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/menu_1.png" width="250" alt="Screenshot">
 
 
@@ -43,7 +42,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/menu_2.png" width="250" alt="Screenshot">
 
 
@@ -61,7 +59,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/menu_3.png" width="250" alt="Screenshot">
 
 
@@ -88,7 +85,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/menu_4.png" width="250" alt="Screenshot">
 
 

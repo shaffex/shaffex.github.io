@@ -58,7 +58,6 @@
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/picker_1.png" width="250" alt="Screenshot">
 
 
@@ -91,7 +90,6 @@
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/picker_2.png" width="250" alt="Screenshot">
 
 

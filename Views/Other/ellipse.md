@@ -16,5 +16,4 @@ An ellipse shape aligned inside the frame of the view containing it.
     <ellipse stroke="lineWidth:3" foregroundColor="yellow" padding="20"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/ellipse_1.png" width="250" alt="Screenshot">

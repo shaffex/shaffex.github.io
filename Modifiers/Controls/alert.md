@@ -20,7 +20,6 @@ Presents an alert when a given condition is true.
 </alert>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/alert_1.png" width="250" alt="Screenshot">
 
 ```xml
@@ -30,5 +29,4 @@ Presents an alert when a given condition is true.
 </alert>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/alert_2.png" width="250" alt="Screenshot">

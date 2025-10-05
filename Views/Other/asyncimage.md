@@ -17,5 +17,4 @@ A view that asynchronously loads and displays an image.
     <asyncimage resizable="">https://picsum.photos/200</asyncimage>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/asyncimage_1.png" width="250" alt="Screenshot">

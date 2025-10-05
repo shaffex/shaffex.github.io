@@ -10,7 +10,6 @@ datepicker is a container that stacks its children vertically.
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/datepicker_1.png" width="250" alt="Screenshot">
 
 

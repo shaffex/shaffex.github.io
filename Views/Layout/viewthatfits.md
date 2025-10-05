@@ -10,7 +10,6 @@
     </viewthatfits>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/viewthatfits_1.png" width="250" alt="Screenshot">
 
 

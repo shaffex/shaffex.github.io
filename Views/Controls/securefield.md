@@ -17,5 +17,4 @@ A control into which the user securely enters private text.
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/securefield_1.png" width="250" alt="Screenshot">

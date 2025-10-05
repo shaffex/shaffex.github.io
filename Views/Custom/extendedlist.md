@@ -20,5 +20,4 @@ A list view with added functionality like search and content unavailable states.
     <contentunavailableview id="noItemsView" title="No Items" description="There are no items to display."/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/extendedlist_1.png" width="250" alt="Screenshot">

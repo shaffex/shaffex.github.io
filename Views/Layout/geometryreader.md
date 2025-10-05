@@ -20,7 +20,6 @@
     </geometryreader>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/geometryreader_1.png" width="250" alt="Screenshot">
 
 
@@ -43,7 +42,6 @@
     </geometryreader>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/geometryreader_2.png" width="250" alt="Screenshot">
 
 

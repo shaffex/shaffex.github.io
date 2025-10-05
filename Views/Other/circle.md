@@ -16,5 +16,4 @@ A circle shape aligned inside the frame of the view containing it.
     <circle stroke="lineWidth:10" foregroundColor="orange" padding="20"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/circle_1.png" width="250" alt="Screenshot">

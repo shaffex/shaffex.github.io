@@ -17,5 +17,4 @@ A rectangle shape with rounded corners, aligned inside the frame of the view con
     <roundedrectangle cornerRadius="10" stroke="lineWidth:2" foregroundColor="teal" padding="20"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Other/roundedrectangle_1.png" width="250" alt="Screenshot">

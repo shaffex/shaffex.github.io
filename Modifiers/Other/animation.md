@@ -21,5 +21,4 @@ Applies an animation to the view when a specified value changes.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Other/animation_1.png" width="250" alt="Screenshot">

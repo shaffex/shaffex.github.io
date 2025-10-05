@@ -15,5 +15,4 @@ A view that loads its content from a remote URL.
     <remoteview src="https://example.com/my-view.xml"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/remoteview_1.png" width="250" alt="Screenshot">

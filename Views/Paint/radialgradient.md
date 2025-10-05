@@ -12,7 +12,6 @@ RadialGradient in SwiftUI is a view that creates a radial gradient color transit
     </radialgradient>
 </body>
 ```
-
 <img src="/Screenshots/Views/Paint/radialgradient_1.png" width="250" alt="Screenshot">
 
 

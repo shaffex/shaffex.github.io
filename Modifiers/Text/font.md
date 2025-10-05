@@ -27,7 +27,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Text/font_1.png" width="250" alt="Screenshot">
 
 **Font and colors**
@@ -44,7 +43,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Text/font_2.png" width="250" alt="Screenshot">
 
 **System font with size and weight**
@@ -63,7 +61,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Text/font_3.png" width="250" alt="Screenshot">
 
 **Custom font and size**
@@ -71,8 +68,7 @@
 ```xml
 <body>
     <list>
-        <section header="Custom font" footer="You can specify font name and font size
-Example:custom:Helvetica Neue,size:20">
+        <section header="Custom font" footer="You can specify font name and font size Example:custom:Helvetica Neue,size:20">
             <text font="custom:System;size:20">System (30)</text>
             <text font="custom:Helvetica Neue;size:20">Helvetica Neue (20)</text>
             <text font="custom:Helvetica Neue;size:24">Helvetica Neue (24)</text>
@@ -85,5 +81,4 @@ Example:custom:Helvetica Neue,size:20">
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Text/font_4.png" width="250" alt="Screenshot">

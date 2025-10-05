@@ -21,7 +21,6 @@
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/stepper_1.png" width="250" alt="Screenshot">
 
 

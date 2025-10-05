@@ -18,5 +18,4 @@ A view that generates and displays a barcode or QR code.
     <barcode barcodeType="qr" foregroundColor="#0000FF" backgroundColor="#FFFFFF">Hello, World!</barcode>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/barcode_1.png" width="250" alt="Screenshot">

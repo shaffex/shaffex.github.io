@@ -14,5 +14,4 @@ A container view with a card-like appearance, including padding, a corner radius
     </card>
 </body>
 ```
-
 <img src="/Screenshots/Views/In Testing/card_1.png" width="250" alt="Screenshot">

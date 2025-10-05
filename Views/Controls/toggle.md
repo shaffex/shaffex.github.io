@@ -10,7 +10,6 @@ In SwiftUI, a Toggle is a control that allows users to toggle between a true or 
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/toggle_1.png" width="250" alt="Screenshot">
 
 

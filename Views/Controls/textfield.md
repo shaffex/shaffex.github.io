@@ -21,5 +21,4 @@ A control that displays an editable text interface.
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/textfield_1.png" width="250" alt="Screenshot">

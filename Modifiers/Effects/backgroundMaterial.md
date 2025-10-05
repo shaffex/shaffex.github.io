@@ -32,5 +32,4 @@ Applies a background material to the view, creating a translucent, blurred effec
     </zstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Effects/backgroundMaterial_1.png" width="250" alt="Screenshot">

@@ -27,7 +27,6 @@
     </zstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/zstack_1.png" width="250" alt="Screenshot">
 
 

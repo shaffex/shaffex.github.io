@@ -24,5 +24,4 @@ A grid that grows horizontally, creating items only as needed.
     </scrollview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/lazyhgrid_1.png" width="250" alt="Screenshot">

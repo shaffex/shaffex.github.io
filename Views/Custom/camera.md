@@ -15,5 +15,4 @@ A view that displays a camera interface for taking photos.
     <camera sourceType="camera"/>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/camera_1.png" width="250" alt="Screenshot">

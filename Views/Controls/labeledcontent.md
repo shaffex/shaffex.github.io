@@ -22,5 +22,4 @@ A container for attaching a label to a value-bearing view.
     </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/labeledcontent_1.png" width="250" alt="Screenshot">

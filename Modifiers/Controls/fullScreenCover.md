@@ -26,5 +26,4 @@ Presents a view that covers the screen when a given condition is true.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Controls/fullScreenCover_1.png" width="250" alt="Screenshot">

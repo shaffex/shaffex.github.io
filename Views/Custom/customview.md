@@ -18,5 +18,4 @@ A view that displays a reusable view defined elsewhere in the XML.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/customview_1.png" width="250" alt="Screenshot">

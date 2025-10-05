@@ -22,5 +22,4 @@ A view that arranges its children in a vertical line, creating items only as nee
     </scrollview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Layout/lazyvstack_1.png" width="250" alt="Screenshot">

@@ -19,5 +19,4 @@ A structure that computes views on demand from an underlying collection of ident
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/foreach_1.png" width="250" alt="Screenshot">

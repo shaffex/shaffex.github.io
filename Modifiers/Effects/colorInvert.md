@@ -20,5 +20,4 @@ Inverts the colors of a view.
     </vstack>
 </body>
 ```
-
 <img src="/Screenshots/Modifiers/Effects/colorInvert_1.png" width="250" alt="Screenshot">

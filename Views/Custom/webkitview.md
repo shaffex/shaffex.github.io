@@ -16,5 +16,4 @@ A view that displays interactive web content, such as a web page.
     <webkitview>url:https://www.apple.com</webkitview>
 </body>
 ```
-
 <img src="/Screenshots/Views/Custom/webkitview_1.png" width="250" alt="Screenshot">
