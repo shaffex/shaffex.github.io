@@ -1,91 +1,51 @@
-**List** is a container that presents rows of data arranged in a single column, similar to UITableView in UIKit but with a more declarative and simpler syntax. It's commonly used for displaying a collection of items in a structured format and supports features like selection, deletion, and reordering of items if needed.
+**Menu** is a control that reveals a list of actions when the user interacts with it.
 
 ***Parameters:***
 
-`listStyle` (optional) This parameter determines the horizontal alignment of the views within the VStack. It's of type HorizontalAlignment and can take the following values:
-* `automatic` The standard or default list style that automatically adapts to the current platform or theme.
-* `plain` A simple, plain style that does not show separators between rows by default and does not indent rows.
-* `grouped` This style groups items in sections, similar to the grouped style in UIKit's UITableView. It's often used with a Section view to create distinct groups of items.
-* `inset` Provides an inset appearance to the list, with margins on the sides, giving it a card-like feel.
-* `insetGrouped` Combines the inset style with grouped sections, offering a modern look with background and spacing around grouped items.
-* `sidebar` Optimized for use in sidebars, particularly in macOS or iPadOS apps, where the list acts as a navigation pane.
+*   `id`: A unique identifier for the menu.
+*   `title`: The title of the menu, which is displayed as its label.
+*   `systemImage`: The name of a system symbol to display next to the title.
 
-> **Default value:** `automatic`
+***Example:***
 
-
+The example below shows a `Menu` with the title "Menu". It contains several actions, including a nested submenu, buttons that perform actions like playing a system sound or opening a URL, and buttons with destructive and cancel roles. It also includes a `ControlGroup` with several buttons.
 
 ```xml
 <body>
-    <list>
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
+    <menu id="viewMenu" title="Menu">
+        <text>Menu demo</text>
+        <menu title="SubMenu">
+            <button>Submenu Item</button>
+            <controlgroup>
+                <button>
+                    <label systemImage="1.circle">Option 1</label>
+                </button>
+                <button>
+                    <label systemImage="2.circle">Option 2</label>
+                </button>
+            </controlgroup>
+        </menu>
+        <button action="playSystemSound:1022">playSystemSound</button>
+        <button action="openUrl:https://apple.com">Open magic-ui.com</button>
+        <divider/>
+        <button role="destructive" action="yourAction">
+            <label systemImage="trash">Delete</label>
+        </button>
+        <button role="cancel" action="yourAction">
+            <label systemImage="pencil">Edit</label>
+        </button>
+        <controlgroup>
+            <button>
+                <label systemImage="1.circle">Option 1</label>
+            </button>
+            <button>
+                <label systemImage="2.circle">Option 2</label>
+            </button>
+            <button>
+                <label systemImage="3.circle">Option 3</label>
+            </button>
+        </controlgroup>
+    </menu>
 </body>
 ```
 <img src="/Screenshots/Views/Controls/menu_1.png" width="250" alt="Screenshot">
-
-
----
-*grouped List*
-
-```xml
-<body>
-    <list listStyle="grouped">
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
-</body>
-```
-<img src="/Screenshots/Views/Controls/menu_2.png" width="250" alt="Screenshot">
-
-
----
-*insetGrouped List*
-
-```xml
-<body>
-    <list listStyle="insetGrouped">
-        <text>Item 1</text>
-        <text>Item 2</text>
-        <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
-</body>
-```
-<img src="/Screenshots/Views/Controls/menu_3.png" width="250" alt="Screenshot">
-
-
----
-*List with sections*
-
-```xml
-<body>
-    <list>
-        <section header="Section 1 Header" footer="Section 1 Footer">
-            <text>Item 1</text>
-            <text>Item 2</text>
-            <text>Item 3</text>
-            <text>Item 4</text>
-            <text>Item 5</text>
-        </section>
-        <section header="Section 2 Header" footer="Section 2 Footer">
-            <text>Item 1</text>
-            <text>Item 2</text>
-            <text>Item 3</text>
-            <text>Item 4</text>
-            <text>Item 5</text>
-        </section>
-    </list>
-</body>
-```
-<img src="/Screenshots/Views/Controls/menu_4.png" width="250" alt="Screenshot">
-
-
----
