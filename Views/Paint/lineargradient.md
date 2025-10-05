@@ -10,7 +10,7 @@ LinearGradient in SwiftUI is a view that creates a linear gradient color transit
 
 ```xml
 <body>
-    <lineargradient gradient="colors:[red,green,blue];startPoint:0.0,0.5;endPoint:1.0,0.5">
+    <lineargradient gradient="colors:[red,green,blue];startPoint:0.0,0.5;endPoint:1.0,0.5" ignoresSafeArea="">
     </lineargradient>
 </body>
 ```
