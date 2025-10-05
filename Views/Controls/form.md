@@ -16,18 +16,17 @@
 
 ```xml
 <body>
-<form>
-    <list navigationTitle="Form">
-        <text>Item 1</text>
-    <text>Item 2</text>
-          <text>Item 3</text>
-        <text>Item 4</text>
-        <text>Item 5</text>
-    </list>
-</form>
+    <form>
+        <list navigationTitle="Form">
+            <text>Item 1</text>
+            <text>Item 2</text>
+            <text>Item 3</text>
+            <text>Item 4</text>
+            <text>Item 5</text>
+        </list>
+    </form>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/form_1.png" width="250" alt="Screenshot">
 
 
@@ -45,7 +44,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/form_2.png" width="250" alt="Screenshot">
 
 
@@ -63,7 +61,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/form_3.png" width="250" alt="Screenshot">
 
 
@@ -90,7 +87,6 @@
     </list>
 </body>
 ```
-
 <img src="/Screenshots/Views/Controls/form_4.png" width="250" alt="Screenshot">
 
 
