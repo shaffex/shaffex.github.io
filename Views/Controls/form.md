@@ -15,6 +15,7 @@
 
 
 ```xml
+<body>
 <form>
     <list navigationTitle="Form">
         <text>Item 1</text>
@@ -24,6 +25,7 @@
         <text>Item 5</text>
     </list>
 </form>
+</body>
 ```
 
 <img src="/Screenshots/Views/Controls/form_1.png" width="250" alt="Screenshot">
