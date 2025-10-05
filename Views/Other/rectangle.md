@@ -12,8 +12,11 @@ A rectangle shape aligned inside the frame of the view containing it.
 
 ```xml
 <body>
-    <rectangle foregroundColor="cyan"/>
-    <rectangle stroke="lineWidth:5;dash:10" foregroundColor="mint" padding="20"/>
+    <vstack padding="">
+        <rectangle foregroundColor="cyan"/>
+        <rectangle stroke="lineWidth:5;dash:5" foregroundColor="mint" clipped=""/>
+        <rectangle foregroundStyle="style:lineargradient;colors:[red,blue];startPoint:0.0,0.5;endPoint:1.0,0.5"/>
+    </vstack>
 </body>
 ```
 <img src="/Screenshots/Views/Other/rectangle_1.png" width="250" alt="Screenshot">

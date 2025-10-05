@@ -12,8 +12,10 @@ An ellipse shape aligned inside the frame of the view containing it.
 
 ```xml
 <body>
-    <ellipse foregroundColor="purple"/>
-    <ellipse stroke="lineWidth:3" foregroundColor="yellow" padding="20"/>
+    <hstack padding="">
+        <ellipse foregroundColor="purple"/>
+        <ellipse stroke="lineWidth:3" foregroundColor="yellow" padding="20"/>
+    </hstack>
 </body>
 ```
 <img src="/Screenshots/Views/Other/ellipse_1.png" width="250" alt="Screenshot">
