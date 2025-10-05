@@ -43,9 +43,9 @@ This example demonstrates the use of `renderingMode="template"`. This mode allow
 ```
 <img src="/Screenshots/Views/Other/asyncimage_3.png" width="250" alt="Screenshot">
 
-***Original Size Example:***
+***Stretched Image Example:***
 
-This example shows the image displayed at its original size, as `scaledToFit` or `scaledToFill` are not used.
+When `resizable` is present without any scaling (`scaledToFit` or `scaledToFill`) or size constraints, the image will stretch to fill its parent view.
 
 ```xml
 <body>
@@ -53,3 +53,14 @@ This example shows the image displayed at its original size, as `scaledToFit` or
 </body>
 ```
 <img src="/Screenshots/Views/Other/asyncimage_4.png" width="250" alt="Screenshot">
+
+***Original Size Example:***
+
+If the `resizable` attribute is not included, the image will be displayed at its original size and will not be resized.
+
+```xml
+<body>
+    <asyncimage>url:https://magic-ui.com/Demo/Resources/Images/noobie.png</asyncimage>
+</body>
+```
+<img src="/Screenshots/Views/Other/asyncimage_5.png" width="250" alt="Screenshot">
