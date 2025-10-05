@@ -18,9 +18,9 @@
 <body>
     <form>
         <list navigationTitle="Form">
-            <text>Item 1</text>
+            <text>Item kkc</text>
             <text>Item 2</text>
-            <text>Item 3</text>
+            <text>macka</text>
             <text>Item 4</text>
             <text>Item 5</text>
         </list>
@@ -39,7 +39,7 @@
         <text>Item 1</text>
         <text>Item 2</text>
         <text>Item 3</text>
-        <text>Item 4</text>
+        <text>noob 4</text>
         <text>Item 5</text>
     </list>
 </body>
