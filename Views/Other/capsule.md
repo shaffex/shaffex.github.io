@@ -15,7 +15,7 @@ A capsule shape aligned inside the frame of the view containing it.
     <vstack padding="">
         <capsule foregroundColor="blue"/>
         <capsule foregroundColor="red"/>
-        <capsule stroke="lineWidth:5;dash:10" foregroundColor="red" padding="20"/>
+        <capsule stroke="lineWidth:5;dash:10" foregroundColor="red"/>
     </vstack>
 </body>
 ```
