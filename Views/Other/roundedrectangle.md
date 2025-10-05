@@ -13,8 +13,10 @@ A rectangle shape with rounded corners, aligned inside the frame of the view con
 
 ```xml
 <body>
-    <roundedrectangle cornerRadius="25" foregroundColor="indigo"/>
-    <roundedrectangle cornerRadius="10" stroke="lineWidth:2" foregroundColor="teal" padding="20"/>
+    <vstack padding="">
+        <roundedrectangle cornerRadius="25" foregroundColor="indigo"/>
+        <roundedrectangle cornerRadius="64" stroke="lineWidth:2" foregroundColor="teal" padding="20"/>
+    </vstack>
 </body>
 ```
 <img src="/Screenshots/Views/Other/roundedrectangle_1.png" width="250" alt="Screenshot">
