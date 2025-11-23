@@ -27,7 +27,7 @@ TEST
             <customview src="predefinedColor" c="purple"/>
         </hstack>
         <colorpicker key="pixelColor" value="yellow">Select Color (current color: $pixelColor)</colorpicker>
-        <button action="loadDataModel:dataModelName:matrix8x8;src:url:https://github.com/shaffex/shaffex.github.io/blob/abf13eace118d4dda935ff62f5195648c69e43e8/Examples/DataModels/pixel-data8x8.json">Clear</button>
+        <button action="loadDataModel:dataModelName:matrix8x8;src:url:https://magic-ui.com/Examples/DataModels/pixel-data8x8.json">Clear</button>
     </vstack>
     <customview id="predefinedColor">
         <zstack>
@@ -37,7 +37,7 @@ TEST
             <circle stroke="lineWidth:1" foregroundColor="primary"/>
         </zstack>
     </customview>
-    <datamodel key="matrix8x8" type="json" src="url:https://github.com/shaffex/shaffex.github.io/blob/abf13eace118d4dda935ff62f5195648c69e43e8/Examples/DataModels/pixel-data8x8.json"/>
+    <datamodel key="matrix8x8" type="json" src="url:[https://github.com/shaffex/shaffex.github.io/blob/abf13eace118d4dda935ff62f5195648c69e43e8/Examples/DataModels/pixel-data8x8.json](https://magic-ui.com/Examples/DataModels/pixel-data8x8.json)"/>
 </body>
 ```
 <img src="/Screenshots/Examples/PixelEditor_1.png" width="250" alt="Screenshot">
