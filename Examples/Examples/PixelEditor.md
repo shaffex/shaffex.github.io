@@ -37,7 +37,7 @@ TEST
             <circle stroke="lineWidth:1" foregroundColor="primary"/>
         </zstack>
     </customview>
-    <datamodel key="matrix8x8" type="json" src="resource:pixel-data8x8.json"/>
+    <datamodel key="matrix8x8" type="json" src="url:https://github.com/shaffex/shaffex.github.io/blob/abf13eace118d4dda935ff62f5195648c69e43e8/Examples/DataModels/pixel-data8x8.json"/>
 </body>
 ```
 <img src="/Screenshots/Examples/PixelEditor_1.png" width="250" alt="Screenshot">
