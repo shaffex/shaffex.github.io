@@ -27,7 +27,7 @@ TEST
             <customview src="predefinedColor" c="purple"/>
         </hstack>
         <colorpicker key="pixelColor" value="yellow">Select Color (current color: $pixelColor)</colorpicker>
-        <button action="loadDataModel:dataModelName:matrix8x8;src:resource:pixel-data8x8.json">Clear</button>
+        <button action="loadDataModel:dataModelName:matrix8x8;src:url:https://github.com/shaffex/shaffex.github.io/blob/abf13eace118d4dda935ff62f5195648c69e43e8/Examples/DataModels/pixel-data8x8.json">Clear</button>
     </vstack>
     <customview id="predefinedColor">
         <zstack>
