@@ -48,5 +48,4 @@ The example below shows a `Menu` with the title "Menu". It contains several acti
     </menu>
 </body>
 ```
-<img src="/Screenshots/Views/Controls/menu_override_1.png" width="250" alt="Screenshot">
-<img src="/Screenshots/Views/Controls/menu_override_2.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Views/Controls/menu_1.png" width="250" alt="Screenshot">
