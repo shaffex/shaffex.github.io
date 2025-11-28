@@ -17,7 +17,6 @@
     <form>
         <section footer="Selected value: $myPicker">
             <picker title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="nlue">Blue</text>
@@ -25,7 +24,6 @@
         </section>
         <section footer="pickerStyle=&quot;segmented&quot;">
             <picker pickerStyle="segmented" title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="blue">Blue</text>
@@ -33,7 +31,6 @@
         </section>
         <section footer="pickerStyle=&quot;menu&quot;">
             <picker pickerStyle="menu" title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="blue">Blue</text>
@@ -41,7 +38,6 @@
         </section>
         <section footer="pickerStyle=&quot;navigationLink&quot;">
             <picker pickerStyle="navigationLink" title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="blue">Blue</text>
@@ -49,7 +45,6 @@
         </section>
         <section footer="pickerStyle=&quot;inline&quot;">
             <picker pickerStyle="inline" title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="blue">Blue</text>
@@ -69,7 +64,6 @@
     <form>
         <section footer="pickerStyle=&quot;wheel&quot;">
             <picker height="120" pickerStyle="wheel" title="Select Color" key="myPicker" value="green">
-                My Toggle&gt;
                 <text tag="red">Red</text>
                 <text tag="green">Green</text>
                 <text tag="blue">Blue</text>
@@ -77,7 +71,6 @@
         </section>
         <section footer="pickerStyle=&quot;wheel&quot;">
             <picker pickerStyle="wheel" title="Select Day" key="myPickerDay" value="Monday">
-                My Toggle&gt;
                 <text tag="Monday">Monday</text>
                 <text tag="Tuesday">Tuesday</text>
                 <text tag="Wednesday">Wednesday</text>

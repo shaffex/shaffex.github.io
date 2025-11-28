@@ -1,4 +1,4 @@
-**VStac** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
+**VStack** is a view that arranges its children in a vertical line. The alignment parameter determines how the views are aligned horizontally.
 
 ***Parameters:***
 

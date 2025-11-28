@@ -1,6 +1,16 @@
-datepicker is a container that stacks its children vertically.
+# DatePicker
 
+**Description**
 
+A control for selecting a date and/or time value.
+
+**Parameters**
+
+- `key`: A string representing the key to store the selected date value.
+- `value`: The initial date value in ISO 8601 format (e.g., "20240822T173000Z").
+- The text content of the tag is used as the label for the date picker.
+
+**Example**
 
 ```xml
 <body>
