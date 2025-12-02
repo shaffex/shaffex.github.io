@@ -170,4 +170,4 @@ struct ContentView: View {
 * [How to use Data Models](./DataModels.md)
 
 ### Examples
-* [Pixel Editor 8x8](./Examples/PixelEditor.md)
+* [Show Examples](./Examples/Examples.md)
