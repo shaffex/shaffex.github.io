@@ -1,7 +1,7 @@
 # MagicUI
 
 
-Note: Help in progress ... if any questions please contact shaffex at support com
+Note: Help in progress ... if any questions or would like to help, please contact support at shaffex com
 
 
 Welcome to **MagicUI**, a revolutionary user interface framework designed with performance and flexibility in mind. 
@@ -170,4 +170,4 @@ struct ContentView: View {
 * [How to use Data Models](./DataModels.md)
 
 ### Examples
-* [Pixel Editor 8x8](./Examples/PixelEditor.md)
+* [Show Examples](./Examples/Examples.md)
