@@ -40,4 +40,4 @@ TEST
     <datamodel key="matrix8x8" type="json" src="url:https://magic-ui.com/Examples/DataModels/pixel-data8x8.json"/>
 </body>
 ```
-<img src="/Screenshots/Examples/Examples/Advanced/PixelEditor_1.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Examples/Advanced/PixelEditor_1.png" width="250" alt="Screenshot">

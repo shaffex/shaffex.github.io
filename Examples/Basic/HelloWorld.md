@@ -8,4 +8,4 @@ TEST HELLO MAGIC UI
     </vstack>
 </body>
 ```
-<img src="/Screenshots/Examples/Examples/Basic/HelloWorld_1.png" width="250" alt="Screenshot">
+<img src="/Screenshots/Examples/Basic/HelloWorld_1.png" width="250" alt="Screenshot">
