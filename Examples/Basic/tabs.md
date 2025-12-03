@@ -35,9 +35,9 @@ A minimal example demonstrating rendering a single text element.
             <section>
                 <toggle key="isShowingAlerts" value="true">Alerts Tab</toggle>
 
-                <picker key="alertImage" value="bell" title="Alert Tab Icon">
-                    <label tag="bell" systemImage="bell">bell</label>
-                    <label tag="bell.circle" systemImage="bell.circle">bell.circle</label>
+                <picker key="alertImage" value="bell.fill" title="Alert Tab Icon">
+                    <label tag="bell.fill" systemImage="bell">bell.dill</label>
+                    <label tag="bell.circle.fill" systemImage="bell.circle.fill">bell.circle.fill</label>
                     <label tag="bell.badge.fill" systemImage="bell.badge.fill">bell.badge.fill</label>
                 </picker>
 
