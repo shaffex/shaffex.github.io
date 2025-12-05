@@ -1,6 +1,6 @@
-TEST HELLO MAGIC UI
+# Dynamic List
 
-A minimal example demonstrating rendering a single text element.
+An example demonstrating a list populated with data from a JSON datamodel.
 
 ```xml
 <body>
@@ -10,7 +10,7 @@ A minimal example demonstrating rendering a single text element.
                 <text font="largeTitle">$dataModel.flag</text>
                 <vstack alignment="leading">
                     <text font="headline">$dataModel.country</text>
-                    <text>$dataModel.capital</text>
+                    <text foregroundStyle="secondary">$dataModel.capital</text>
                 </vstack>
             </hstack>
         </foreach>
